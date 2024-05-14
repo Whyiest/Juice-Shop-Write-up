@@ -19,10 +19,10 @@ Welcome to the GitHub repository dedicated to providing comprehensive write-ups 
 ## Repository Structure
 
 - **Challenges**: Solutions are organized into folders based on their difficulty level, ranging from 1 to 6 stars (⭐-⭐⭐⭐⭐⭐⭐). Each challenge's folder contains a detailed write-up that walks through the approach taken to exploit vulnerabilities and secure the application.
-- **Scripts**: This folder contains all scripts and automation tools developed and used to solve the Juice Shop challenges.
+- **Tools**: This folder contains all scripts and automation tools developed and used to solve the Juice Shop challenges.
 - **Assets**: All images used in the individual challenge write-ups are stored in this folder. These images illustrate the steps, results, and important concepts discussed in the write-ups.
-- **Files**: Contains all files downloaded from the Juice Shop website during the challenges. These files were obtained as part of solving various challenges and are used to illustrate or explain certain solutions.
-- **Achievements Backup**: The `all_achievements.json` file is a backup of the progression state in the Juice Shop CTF, which, when applied, automatically validates most of the challenges. It is provided for reference and learning purposes.
+- **Files**: Contains all files downloaded from the Juice Shop website during the challenges. These files were obtained as part of solving various challenges. You can use theses files to gain some time during the completion of the CTF.
+- **Achievements Backup**: The `all_achievements.json`, located inside the `Tools` folder, is a backup of the progression state in the Juice Shop CTF, which, when applied, automatically validates most of the challenges. It is provided for reference and learning purposes.
 
 ## Challenge Levels
 
