@@ -1,4 +1,4 @@
-# Juice-Shop: Bonus Payload
+# Juice-Shop Write-up: Bonus Payload
 
 ## Challenge Overview
 

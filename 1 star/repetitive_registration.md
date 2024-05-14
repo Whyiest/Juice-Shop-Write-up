@@ -1,4 +1,4 @@
-# Juice-Shop: Repetitive Registration Challenge
+# Juice-Shop Write-up: Repetitive Registration Challenge
 
 ## Challenge Overview
 

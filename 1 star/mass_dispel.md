@@ -1,4 +1,4 @@
-# Juice Shop: Mass Dispel Challenge
+# Juice Shop Write-up: Mass Dispel Challenge
 
 ## Challenge Overview
 

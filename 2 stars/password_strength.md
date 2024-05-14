@@ -1,4 +1,4 @@
-# Juice-Shop: Password Strength
+# Juice-Shop Write-up: Password Strength
 
 ## Challenge Overview
 

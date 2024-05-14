@@ -1,4 +1,4 @@
-# Juice-Shop: View Basket
+# Juice-Shop Write-up: View Basket
 
 ## Challenge Overview
 

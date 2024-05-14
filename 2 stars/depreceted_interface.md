@@ -1,4 +1,4 @@
-# Juice-Shop: Deprecated Interface
+# Juice-Shop Write-up: Deprecated Interface
 
 ## Challenge Overview
 

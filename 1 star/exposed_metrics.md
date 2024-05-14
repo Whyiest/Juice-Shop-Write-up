@@ -1,4 +1,4 @@
-# Juice-Shop: Exposed Metrics Challenge
+# Juice-Shop Write-up: Exposed Metrics Challenge
 
 ## Challenge Overview
 

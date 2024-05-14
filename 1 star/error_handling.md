@@ -1,4 +1,4 @@
-# Juice Shop: Error Handling Challenge
+# Juice Shop Write-up: Error Handling Challenge
 
 ## Challenge Overview
 

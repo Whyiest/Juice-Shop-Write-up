@@ -1,4 +1,4 @@
-# Juice-Shop: NFT Takeover
+# Juice-Shop Write-up: NFT Takeover
 
 ## Challenge Overview
 

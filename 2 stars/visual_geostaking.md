@@ -1,4 +1,4 @@
-# Juice-Shop: Visual Geo Stalking
+# Juice-Shop Write-up: Visual Geo Stalking
 
 ## Challenge Overview
 

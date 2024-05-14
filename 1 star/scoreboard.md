@@ -1,4 +1,4 @@
-# Juice Shop: Score Board Challenge
+# Juice Shop Write-up: Score Board Challenge
 
 ## Challenge Overview
 

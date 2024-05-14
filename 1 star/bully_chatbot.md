@@ -1,4 +1,4 @@
-# Juice Shop: Bully Chatbot Challenge
+# Juice Shop Write-up: Bully Chatbot Challenge
 
 ## Challenge Overview
 

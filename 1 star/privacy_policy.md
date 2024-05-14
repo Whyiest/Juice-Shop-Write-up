@@ -1,4 +1,4 @@
-# Juice Shop: Privacy Policy Challenge
+# Juice Shop Write-up: Privacy Policy Challenge
 
 ## Challenge Overview
 

@@ -1,4 +1,4 @@
-# Juice-Shop: Meta Geo Stalking
+# Juice-Shop Write-up: Meta Geo Stalking
 
 ## Challenge Overview
 

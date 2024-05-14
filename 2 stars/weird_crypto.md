@@ -1,4 +1,4 @@
-# Juice-Shop: Weird Crypto
+# Juice-Shop Write-up: Weird Crypto
 
 ## Challenge Overview
 

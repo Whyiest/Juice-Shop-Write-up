@@ -1,4 +1,4 @@
-# Juice Shop: Missing Encoding Challenge
+# Juice Shop Write-up: Missing Encoding Challenge
 
 ## Challenge Overview
 

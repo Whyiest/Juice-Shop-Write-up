@@ -1,4 +1,4 @@
-# Juice-Shop: Zero Stars Challenge
+# Juice-Shop Write-up: Zero Stars Challenge
 
 ## Challenge Overview
 

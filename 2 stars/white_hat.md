@@ -1,4 +1,4 @@
-# Juice-Shop: Locate Security Policy File
+# Juice-Shop Write-up: Locate Security Policy File
 
 ## Challenge Overview
 

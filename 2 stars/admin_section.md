@@ -1,4 +1,4 @@
-# Juice-Shop: Admin Section
+# Juice-Shop Write-up: Admin Section
 
 ## Challenge Overview
 

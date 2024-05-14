@@ -1,4 +1,4 @@
-# Juice-Shop: Five-Star Feedback
+# Juice-Shop Write-up: Five-Star Feedback
 
 ## Challenge Overview
 

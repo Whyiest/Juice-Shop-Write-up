@@ -1,4 +1,4 @@
-# Juice-Shop: Web3 Sandbox Challenge
+# Juice-Shop Write-up: Web3 Sandbox Challenge
 
 ## Challenge Overview
 

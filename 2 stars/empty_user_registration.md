@@ -1,4 +1,4 @@
-# Juice-Shop: Empty User Registration
+# Juice-Shop Write-up: Empty User Registration
 
 ## Challenge Overview
 

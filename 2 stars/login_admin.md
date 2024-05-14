@@ -1,4 +1,4 @@
-# Juice-Shop: Login Admin
+# Juice-Shop Write-up: Login Admin
 
 ## Challenge Overview
 

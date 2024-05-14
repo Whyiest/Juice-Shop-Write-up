@@ -1,4 +1,4 @@
-# Juice-Shop: Confidential Document Challenge
+# Juice-Shop Write-up: Confidential Document Challenge
 
 ## Challenge Overview
 

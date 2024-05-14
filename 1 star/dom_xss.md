@@ -1,4 +1,4 @@
-# Juice-Shop: DOM XSS
+# Juice-Shop Write-up: DOM XSS
 
 ## Challenge Overview
 

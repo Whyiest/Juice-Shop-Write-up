@@ -1,4 +1,4 @@
-# Juice-Shop: Outdated Allowlist
+# Juice-Shop Write-up: Outdated Allowlist
 
 ## Challenge Overview
 

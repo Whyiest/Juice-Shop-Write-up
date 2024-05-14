@@ -1,4 +1,4 @@
-# Juice-Shop: Login MC SafeSearch
+# Juice-Shop Write-up: Login MC SafeSearch
 
 ## Challenge Overview
 
