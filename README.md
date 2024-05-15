@@ -42,7 +42,9 @@ Navigate to each folder to explore the challenges and solutions specific to that
 
 ## Usage
 
-To use this repository effectively, navigate to the challenge folder corresponding to your current challenge, read the write-up to understand the vulnerability and the remediation steps, and refer to the scripts, assets, or files as needed. Adjust the "all_achievements.json" to your environment to track or restore your progress.
+To use this repository effectively, navigate to the challenge folder corresponding to your current challenge, read the write-up to understand the vulnerability and the remediation steps, and refer to the scripts or files as needed.
+
+**Note**: For some challenges, not all screenshot are included in the write up, but if you need a more visual assistance, you can check inside the assets folders, there is some chances that you find others screenshots for the current challenge.
 
 ## Contributing
 
