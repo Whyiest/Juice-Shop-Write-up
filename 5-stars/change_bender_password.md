@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Change Bender's Password
-
-**Category:** Broken Authentication
-
+**Title:** Change Bender's Password\
+**Category:** Broken Authentication\
 **Difficulty:** ⭐⭐⭐⭐⭐ (5/6)
 
 This challenge involves changing the password of the user Bender to `slurmCl4ssic` on the `juice-sh.op` platform without using SQL Injection or the forgot password functionality.

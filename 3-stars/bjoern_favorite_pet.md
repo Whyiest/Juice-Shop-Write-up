@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Bjoern’s Favorite Pet
-
-**Category:** OSINT (Open Source Intelligence)
-
+**Title:** Bjoern’s Favorite Pet\
+**Category:** OSINT (Open Source Intelligence)\
 **Difficulty:** ⭐⭐⭐ (3/6)
 
 The "Bjoern’s Favorite Pet" challenge involves using open-source intelligence to discover personal information related to Bjoern, specifically identifying the name of his favorite pet, which is used as the answer to a security question.

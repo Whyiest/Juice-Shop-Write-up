@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Reset Jim's Password
-
-**Category:** OSINT
-
+**Title:** Reset Jim's Password\
+**Category:** OSINT\
 **Difficulty:** ⭐⭐⭐ (3/6)
 
 The "Login Jim" challenge tasks us to reset the Jim's password using the answer of his security question.

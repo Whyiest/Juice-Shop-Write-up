@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Error Handling
-
-**Category:** Security Misconfiguration
-
+**Title:** Error Handling\
+**Category:** Security Misconfiguration\
 **Difficulty:** ⭐ (1/6)
 
 This challenge involves provoking an error that reveals backend details due to improper or non-systematic error handling. The task tests understanding of how server misconfigurations can expose sensitive information and system details that could be exploited.

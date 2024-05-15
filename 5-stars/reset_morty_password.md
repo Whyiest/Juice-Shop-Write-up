@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Reset Morty's Password
-
-**Category:** Security Misconfiguration
-
+**Title:** Reset Morty's Password\
+**Category:** Security Misconfiguration\
 **Difficulty:** ⭐⭐⭐⭐⭐ (5/6)
 
 This challenge involves resetting the password for Morty's account (morty@juice-sh.op) by answering his security question: "What is the name of your favorite pet?" 

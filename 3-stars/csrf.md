@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** CSRF (Cross-Site Request Forgery)
-
-**Category:** Broken Access Control
-
+**Title:** CSRF (Cross-Site Request Forgery)\
+**Category:** Broken Access Control\
 **Difficulty:** ⭐⭐⭐ (3/6)
 
 The challenge "CSRF" involves executing a Cross-Site Request Forgery (CSRF) attack to change the name of a user on the OWASP Juice Shop platform without their consent.

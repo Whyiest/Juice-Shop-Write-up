@@ -6,7 +6,7 @@
 **Category:** Improper Input Validation\
 **Difficulty:** ⭐ (1/6)
 
-This challenge involves giving a zero-star feedback rating to a store, exploiting improper input validation mechanisms. The challenge tests participants' abilities to manipulate web forms and intercept network requests to alter data before submission.
+This challenge involves giving a zero-star feedback rating to a store, exploiting improper input validation mechanisms. The challenge tests abilities to manipulate web forms and intercept network requests to alter data before submission.
 
 ## Tools Used
 

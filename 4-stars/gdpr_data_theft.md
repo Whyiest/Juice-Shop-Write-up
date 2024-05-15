@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** GDPR Data Theft
-
-**Category:** Sensitive Data Exposure
-
+**Title:** GDPR Data Theft\
+**Category:** Sensitive Data Exposure\
 **Difficulty:** ⭐⭐⭐⭐ (4/6)
 
 This challenge requires exploiting a feature without using SQL injection or other common injection techniques to steal personal data in compliance with GDPR constraints.

@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Retrieve Blueprint
-
-**Category:** Forensic/Recon
-
+**Title:** Retrieve Blueprint\
+**Category:** Forensic/Recon\
 **Difficulty:** ⭐⭐⭐⭐⭐ (5/6)
 
 This challenge requires to locate and retrieve a 3D blueprint related to the OWASP Juice Shop project. 

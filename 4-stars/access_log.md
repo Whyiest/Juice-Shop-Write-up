@@ -2,8 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Access Log  
-**Category:** Sensitive Data Exposure  
+**Title:** Access Log\
+**Category:** Sensitive Data Exposure\
 **Difficulty:** ⭐⭐⭐⭐ (4/6)
 
 This challenge tasked us with gaining access to any of the server's access log files.

@@ -2,8 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Users Credentials  
-**Category:** Injection  
+**Title:** Users Credentials\
+**Category:** Injection\
 **Difficulty:** ⭐⭐⭐⭐ (4/6)
 
 This challenge was about exploiting an SQL Injection vulnerability to extract sensitive user credentials from the application's database.

@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Upload Size
-
-**Category:** Improper Input Validation
-
+**Title:** Upload Size\
+**Category:** Improper Input Validation\
 **Difficulty:** ⭐⭐⭐ (3/6)
 
 The "Upload Size" challenge requires uploading a file larger than 100 KB, which is beyond the size limit enforced by the application's client-side validation.

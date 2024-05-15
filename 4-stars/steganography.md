@@ -2,13 +2,11 @@
 
 ## Challenge Overview
 
-**Title:** Steganography
-
-**Category:** Security through Obscurity
-
+**Title:** Steganography\
+**Category:** Security through Obscurity\
 **Difficulty:** ⭐⭐⭐⭐ (4/6)
 
-This challenge tests the participant's ability to uncover hidden data within files, specifically images. The task was to discover a notable character hidden within an image on the website, utilizing various steganography detection tools.
+This challenge tests ability to uncover hidden data within files, specifically images. The task was to discover a notable character hidden within an image on the website, utilizing various steganography detection tools.
 
 ## Tools Used
 

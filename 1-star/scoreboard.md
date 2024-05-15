@@ -6,7 +6,7 @@
 **Category:** Miscellaneous\
 **Difficulty:** ⭐ (1/6)
 
-This challenge requires participants to locate a carefully hidden "Score Board" page within the application. The solution to this challenge involves analyzing the JavaScript code of the application to discover the route to the Score Board page.
+This challenge requires to locate a carefully hidden "Score Board" page within the application. The solution to this challenge involves analyzing the JavaScript code of the application to discover the route to the Score Board page.
 
 ## Tools Used
 

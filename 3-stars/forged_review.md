@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Forged Review
-
-**Category:** Broken Access Control
-
+**Title:** Forged Review\
+**Category:** Broken Access Control\
 **Difficulty:** ⭐⭐⭐ (3/6)
 
 This challenge involves manipulating the review submission process in a web application to post reviews as another user, exploiting weak access control mechanisms.

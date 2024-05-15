@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Database Schema
-
-**Category:** Information Disclosure
-
+**Title:** Database Schema\
+**Category:** Information Disclosure\
 **Difficulty:** ⭐⭐⭐ (3/6)
 
 The "Database Schema" challenge tests skills in extracting the database schema through SQL injection, which can reveal sensitive structural details of the backend database.

@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Login Amy
-
-**Category:** Brute Force / Cryptographic Issues
-
+**Title:** Login Amy\
+**Category:** Brute Force / Cryptographic Issues\
 **Difficulty:** ⭐⭐⭐ (3/6)
 
 The "Login Amy" challenge involves using clues related to a fictional character to determine the password and gain access to the account. 

@@ -2,9 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Forged Feedback
-
-**Category:** Broken Access Control
+**Title:** Forged Feedback\
+**Category:** Broken Access Control\
 
 **Difficulty:** ⭐⭐⭐ (3/6)
 

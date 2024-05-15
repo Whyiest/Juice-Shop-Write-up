@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Forgotten Sales Backup
-
-**Category:** Sensitive Data Exposure
-
+**Title:** Forgotten Sales Backup\
+**Category:** Sensitive Data Exposure\
 **Difficulty:** ⭐⭐⭐⭐ (4/6)
 
 This challenge involves accessing a backup file left forgotten on a vendor's server. The task highlights the risk of sensitive data exposure due to improperly secured backup files accessible via a public interface.

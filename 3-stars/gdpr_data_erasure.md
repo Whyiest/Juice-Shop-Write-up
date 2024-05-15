@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** GDPR Data Erasure
-
-**Category:** Broken Authentication
-
+**Title:** GDPR Data Erasure\
+**Category:** Broken Authentication\
 **Difficulty:** ⭐⭐⭐ (3/6)
 
 The "GDPR Data Erasure" challenge requires to access an account that has been marked as deleted in compliance with GDPR requirements, which stipulates the right to erasure. 

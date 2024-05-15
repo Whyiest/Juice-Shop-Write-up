@@ -2,13 +2,11 @@
 
 ## Challenge Overview
 
-**Title:** Privacy Policy
-
-**Category:** Miscellaneous
-
+**Title:** Privacy Policy\
+**Category:** Miscellaneous\
 **Difficulty:** ⭐ (1/6)
 
-The objective of this challenge is to consult the Privacy Policy of the site, which indirectly provides clues about the path to an FTP server. The challenge tests a participant's attention to detail and ability to derive insights from seemingly non-technical information.
+The objective of this challenge is to consult the Privacy Policy of the site, which indirectly provides clues about the path to an FTP server. The challenge tests attention to detail and ability to derive insights from seemingly non-technical information.
 
 ## Tools Used
 

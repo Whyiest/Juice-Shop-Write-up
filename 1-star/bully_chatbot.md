@@ -8,7 +8,7 @@
 
 **Difficulty:** ⭐ (1/6)
 
-The challenge requires participants to interact with a support chatbot and manipulate it into providing a coupon code. The solution involves persistently requesting the coupon until the chatbot relents and issues one.
+The challenge requires to interact with a support chatbot and manipulate it into providing a coupon code. 
 
 ## Tools Used
 

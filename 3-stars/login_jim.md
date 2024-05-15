@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Login Jim
-
-**Category:** SQL Injection (SQLi)
-
+**Title:** Login Jim\
+**Category:** SQL Injection (SQLi)\
 **Difficulty:** ⭐⭐⭐ (3/6)
 
 The "Login Jim" challenge needs exploiting an SQL Injection vulnerability to bypass login mechanisms and gain unauthorized access to a user account, specifically Jim's. 

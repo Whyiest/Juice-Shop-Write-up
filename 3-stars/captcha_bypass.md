@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** CAPTCHA Bypass
-
-**Category:** Broken Anti-Automation
-
+**Title:** CAPTCHA Bypass\
+**Category:** Broken Anti-Automation\
 **Difficulty:** ⭐⭐⭐ (3/6)
 
 The "CAPTCHA Bypass" challenge requires to circumvent CAPTCHA protections to submit multiple customer feedback entries within a short period.

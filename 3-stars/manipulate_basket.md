@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Manipulate Basket
-
-**Category:** Broken Access Control
-
+**Title:** Manipulate Basket\
+**Category:** Broken Access Control\
 **Difficulty:** ⭐⭐⭐ (3/6)
 
 The "Manipulate Basket" challenge involves adding an item to another user's shopping basket by exploiting potential insecure direct object references (IDOR) vulnerabilities in the application.

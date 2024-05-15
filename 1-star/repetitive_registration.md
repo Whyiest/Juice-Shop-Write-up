@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Repetitive Registration
-
-**Category:** Improper Input Validation
-
+**Title:** Repetitive Registration\
+**Category:** Improper Input Validation\
 **Difficulty:** ⭐ (1/6)
 
 The "Repetitive Registration" challenge explores the improper validation of user input during the registration process, specifically focusing on the handling of password confirmation fields.

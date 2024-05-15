@@ -6,7 +6,7 @@
 **Category:** Cryptographic Issues  
 **Difficulty:** ⭐⭐⭐⭐ (4/6)
 
-This challenge tasked participants with decrypting a hidden message located within another Easter egg, emphasizing advanced cryptographic analysis to uncover the real Easter egg within the application.
+This challenge ask us to decrypt a hidden message located within another Easter egg, emphasizing advanced cryptographic analysis to uncover the real Easter egg within the application.
 
 ## Tools Used
 

@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Reset Bjoern's Password
-
-**Category:** OSINT/Forensic
-
+**Title:** Reset Bjoern's Password\
+**Category:** OSINT/Forensic\
 **Difficulty:** ⭐⭐⭐⭐⭐ (5/6)
 
 This challenge entails resetting the password for Bjoern Kimminich's account on the `juice-sh.op` platform by correctly answering his security question about a postal code. The challenge leverages open-source intelligence (OSINT) techniques to gather information from various personal and social media profiles to identify the correct postal code for password recovery.

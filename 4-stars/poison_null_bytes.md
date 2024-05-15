@@ -3,8 +3,7 @@
 ## Challenge Overview
 
 **Title:** Poison Null Byte\
-**Category:** Improper Inpu Validation
-
+**Category:** Improper Input Validation\
 **Difficulty:** ⭐⭐⭐⭐ (4/6)
 
 The Poison Null Byte challenge involves exploiting a classic web vulnerability where a null byte (`\0` or `%00` in URL encoding) is used to bypass security controls that improperly handle input validation. This challenge tests the participant's understanding of low-level programming bugs and how they can impact web applications.

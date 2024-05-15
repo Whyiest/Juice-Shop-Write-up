@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Login Bender
-
-**Category:** Injection Flaws
-
+**Title:** Login Bender\
+**Category:** Injection Flaws\
 **Difficulty:** ⭐⭐⭐ (3/6)
 
 This challenge focuses on exploiting an SQL injection vulnerability to bypass authentication mechanisms and gain unauthorized access to a user's account, specifically targeting the account associated with "Bender" in the application.

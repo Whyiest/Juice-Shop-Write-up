@@ -8,7 +8,7 @@
 
 **Difficulty:** ⭐⭐⭐ (3/6)
 
-The "Deluxe Fraud" challenge involves manipulating the web application to obtain a Deluxe Membership without proper payment. This challenge tests participants' skills in identifying and exploiting vulnerabilities related to payment and authorization mechanisms.
+The "Deluxe Fraud" challenge involves manipulating the web application to obtain a Deluxe Membership without proper payment. This challenge tests skills in identifying and exploiting vulnerabilities related to payment and authorization mechanisms.
 
 ## Tools Used
 

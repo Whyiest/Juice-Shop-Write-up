@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Product Tempering
-
-**Category:** Broken Access Control
-
+**Title:** Product Tempering\
+**Category:** Broken Access Control\
 **Difficulty:** ⭐⭐⭐ (3/6)
 
 The challenge, "Product Tempering," involves changing the href attribute of a hyperlink within the product description of the "OWASP SSL Advanced Forensic Tool (O-Saft)" to point to a new URL: `https://owasp.slack.com`.

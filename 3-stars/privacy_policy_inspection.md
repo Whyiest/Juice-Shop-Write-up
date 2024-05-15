@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Privacy Policy Inspection
-
-**Category:** Security through Obscurity
-
+**Title:** Privacy Policy Inspection\
+**Category:** Security through Obscurity\
 **Difficulty:** ⭐⭐⭐ (3/6)
 
 The "Privacy Policy Inspection" challenge requires to demonstrate their familiarity with the privacy policy by uncovering hidden elements or messages within the policy document.

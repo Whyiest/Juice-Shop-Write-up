@@ -6,7 +6,7 @@
 **Category:** Sensitive Data Exposure\
 **Difficulty:** ⭐⭐ (2/6)
 
-This challenge, "Visual Geo Stalking," involves using publicly available visual data to deduce the answer to a security question and then using that information to reset a user's password. It tests participants' abilities in image analysis, OSINT techniques, and creative thinking to link seemingly unrelated data for accessing sensitive information.
+This challenge, "Visual Geo Stalking," involves using publicly available visual data to deduce the answer to a security question and then using that information to reset a user's password. It tests abilities in image analysis, OSINT techniques, and creative thinking to link seemingly unrelated data for accessing sensitive information.
 
 ## Tools Used
 

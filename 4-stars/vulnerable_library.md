@@ -2,7 +2,7 @@
 
 ## Challenge Overview
 
-**Title:** Vulnerable Library  
+**Title:** Vulnerable Library\
 **Category:** Vulnerable Components  
 **Difficulty:** ⭐⭐⭐⭐ (4/6)
 
