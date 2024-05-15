@@ -24,6 +24,7 @@ This challenge involves exploiting a business logic flaw to achieve unauthorized
 <img src="../assets/difficulty3/payback_time_1.png" alt="403" width="500px">
 
 3. **Identify Account with Necessary Permissions**:
+
    - Found the email of a user likely to have necessary permissions (`accountant@juice-sh.op`) from product comments.
 
    <img src="../assets/difficulty3/payback_time_2.png" alt="email of accountant" width="500px">
