@@ -1,4 +1,4 @@
-# Juice-Shop: Login Bender Challenge
+# Juice-Shop Write-up: Login Bender Challenge
 
 ## Challenge Overview
 

@@ -1,4 +1,4 @@
-# Juice-Shop: GDPR Data Erasure
+# Juice-Shop Write-up: GDPR Data Erasure
 
 ## Challenge Overview
 

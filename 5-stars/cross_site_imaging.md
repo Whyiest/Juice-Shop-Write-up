@@ -1,4 +1,3 @@
-
 # Juice-Shop Write-up: Cross-Site Imaging
 
 ## Challenge Overview

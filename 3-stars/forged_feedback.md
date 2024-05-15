@@ -1,4 +1,4 @@
-# Juice-Shop: Forged Feedback Challenge
+# Juice-Shop Write-up: Forged Feedback Challenge
 
 ## Challenge Overview
 

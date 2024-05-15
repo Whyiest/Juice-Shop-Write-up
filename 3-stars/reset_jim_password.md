@@ -1,4 +1,4 @@
-# Juice-Shop: Reset Jim's Password
+# Juice-Shop Write-up: Reset Jim's Password
 
 ## Challenge Overview
 

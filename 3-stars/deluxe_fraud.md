@@ -1,4 +1,4 @@
-# Juice-Shop: Deluxe Fraud
+# Juice-Shop Write-up: Deluxe Fraud
 
 ## Challenge Overview
 

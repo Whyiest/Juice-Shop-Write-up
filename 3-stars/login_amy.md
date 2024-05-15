@@ -1,4 +1,4 @@
-# Juice-Shop: Login Amy
+# Juice-Shop Write-up: Login Amy
 
 ## Challenge Overview
 

@@ -4,7 +4,7 @@
 
 **Title:** Wallet Depletion  
 **Category:** Cryptographic Issues  
-**Difficulty:** ⭐⭐⭐⭐⭐ (5/6)
+**Difficulty:** ⭐⭐⭐⭐⭐⭐ (6/6)
 
 This challenge entails draining or manipulating the balance of a simulated cryptocurrency wallet within the Juice Shop application by intercepting and manipulating blockchain transaction requests.
 

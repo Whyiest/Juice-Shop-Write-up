@@ -1,4 +1,4 @@
-# Juice-Shop: Manipulate Basket
+# Juice-Shop Write-up: Manipulate Basket
 
 ## Challenge Overview
 

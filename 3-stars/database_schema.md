@@ -1,4 +1,4 @@
-# Juice-Shop: Database Schema
+# Juice-Shop Write-up: Database Schema
 
 ## Challenge Overview
 

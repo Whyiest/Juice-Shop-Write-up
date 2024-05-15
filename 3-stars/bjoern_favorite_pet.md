@@ -1,4 +1,4 @@
-# Juice-Shop: Bjoern’s Favorite Pet
+# Juice-Shop Write-up: Bjoern’s Favorite Pet
 
 ## Challenge Overview
 

@@ -1,4 +1,4 @@
-# CTF Challenge Write-up: Mint the Honey Pot
+# Juice-Shop Write-up: Mint the Honey Pot
 
 ## Challenge Overview
 

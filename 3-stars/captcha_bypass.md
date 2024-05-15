@@ -1,4 +1,4 @@
-# Juice-Shop: CAPTCHA Bypass
+# Juice-Shop Write-up: CAPTCHA Bypass
 
 ## Challenge Overview
 

@@ -1,4 +1,4 @@
-# CTF Challenge Write-Up: Change Bender's Password
+# Juice-Shop Write-up: Change Bender's Password
 
 ## Challenge Overview
 

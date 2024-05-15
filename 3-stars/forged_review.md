@@ -1,7 +1,4 @@
-
-
-
-# juice-Shop: Forged Review Challenge
+# Juice-Shop Write-up: Forged Review Challenge
 
 ## Challenge Overview
 

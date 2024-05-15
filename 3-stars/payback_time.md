@@ -1,4 +1,4 @@
-# Juice-Shop: Payback Time Challenge
+# Juice-Shop Write-up: Payback Time Challenge
 
 ## Challenge Overview
 

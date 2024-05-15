@@ -1,4 +1,4 @@
-# Juice-Shop: Admin Registration
+# Juice-Shop Write-up: Admin Registration
 
 ## Challenge Overview
 
