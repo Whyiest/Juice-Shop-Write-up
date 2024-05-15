@@ -21,7 +21,7 @@ This challenge involves exploiting a business logic flaw to achieve unauthorized
 
 2. **Attempt to Access Accounting Page**: Accessed `http://127.0.0.1:3000/#/accounting` directly in the browser, leading to an authorization error page.
 
-<img src="../assets/difficulty3/payback_time_1.png" alt="403" width="500px">
+   <img src="../assets/difficulty3/payback_time_1.png" alt="403" width="500px">
 
 3. **Identify Account with Necessary Permissions**:
 

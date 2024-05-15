@@ -38,9 +38,9 @@ Navigate to each folder to explore the challenges and solutions specific to that
 
 **Note**: For some challenges, not all screenshots are included in the write up, but if you need a more visual assistance, you can check inside the `assets` folder : there is chances that you find others screenshots for the current challenge.
 
-# Challenge list
+## Challenge list
 
-## Difficulty 1 Star (⭐)
+### Difficulty 1 Star (⭐)
 
 - [Bonus Payload](1-star/Bonus%20Payload.md) - Cross-Site Scripting (XSS)
 - [Confidential Document Challenge](1-star/Confidential%20Document%20Challenge.md) - Sensitive Data Exposure
@@ -51,7 +51,7 @@ Navigate to each folder to explore the challenges and solutions specific to that
 - [Web3 Sandbox Challenge](1-star/Web3%20Sandbox%20Challenge.md) - Broken Access Control
 - [Zero Stars Challenge](1-star/Zero%20Stars%20Challenge.md) - Improper Input Validation
 
-## Difficulty 2 Stars (⭐⭐)
+### Difficulty 2 Stars (⭐⭐)
 
 - [Admin Section](2-stars/Admin%20Section.md) - Broken Access Control
 - [Deprecated Interface](2-stars/Deprecated%20Interface.md) - Security Misconfiguration
@@ -67,7 +67,7 @@ Navigate to each folder to explore the challenges and solutions specific to that
 - [Weird Crypto](2-stars/Weird%20Crypto.md) - Cryptographic Issues
 - [Locate Security Policy File](2-stars/Locate%20Security%20Policy%20File.md) - OSINT/Discovery
 
-## Difficulty 3 Stars (⭐⭐⭐)
+### Difficulty 3 Stars (⭐⭐⭐)
 
 - [Admin Registration](3-stars/Admin%20Registration.md) - Improper Input Validation
 - [Bjoern’s Favorite Pet](3-stars/Bjoerns%20Favorite%20Pet.md) - OSINT (Open Source Intelligence)
@@ -89,7 +89,7 @@ Navigate to each folder to explore the challenges and solutions specific to that
 - [Reset Jim's Password](3-stars/Reset%20Jims%20Password.md) - OSINT
 - [Upload Size](3-stars/Upload%20Size.md) - Improper Input Validation
 
-## Difficulty 4 Stars (⭐⭐⭐⭐)
+### Difficulty 4 Stars (⭐⭐⭐⭐)
 
 - [Access Log](4-stars/Access%20Log.md) - Sensitive Data Exposure
 - [Allowlist Bypass](4-stars/Allowlist%20Bypass.md) - Broken Access Control
@@ -110,7 +110,7 @@ Navigate to each folder to explore the challenges and solutions specific to that
 - [Users Credentials](4-stars/Users%20Credentials.md) - Injection
 - [Vulnerable Library](4-stars/Vulnerable%20Library.md) - Vulnerable Components
 
-## Difficulty 5 Stars (⭐⭐⭐⭐⭐)
+### Difficulty 5 Stars (⭐⭐⭐⭐⭐)
 
 - [Blockchain Hype](5-stars/Blockchain%20Hype.md) - Security through Obscurity
 - [Change Bender's Password](5-stars/Change%20Benders%20Password.md) - Broken Authentication
@@ -125,7 +125,7 @@ Navigate to each folder to explore the challenges and solutions specific to that
 - [Two-Factor Authentication Bypass](5-stars/Two-Factor%20Authentication%20Bypass.md) - Broken Authentication
 - [Unsigned JWT](5-stars/Unsigned%20JWT.md) - Broken Authentication
 
-## Difficulty 6 Stars (⭐⭐⭐⭐⭐⭐)
+### Difficulty 6 Stars (⭐⭐⭐⭐⭐⭐)
 
 - [Forged Coupon](6-stars/Forged%20Coupon.md) - Cryptography
 - [Forged Signed JWT](6-stars/Forged%20Signed%20JWT.md) - Vulnerable Components
@@ -137,7 +137,7 @@ Navigate to each folder to explore the challenges and solutions specific to that
 - [Wallet Depletion](6-stars/Wallet%20Depletion.md) - Cryptographic Issues
 
 
-## Contributing
+### Contributing
 
 Even if the vast majority of challenges are covered by trhis repository, some of them remain not completed due to some technical constraints. Contributions to improve the write-ups, scripts, or any other resources in this repository are welcome. Please submit pull requests with your suggested changes or enhancements.
 
