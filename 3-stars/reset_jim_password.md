@@ -27,7 +27,7 @@ The "Login Jim" challenge tasks us to reset the Jim's password using the answer 
 2. **Security Question Details**:
    - here is the security question of Jim :
    
-   <img src="../assets/difficulty3/reset_jim_password_1.png" alt="security question of jim" width="700px">
+   <img src="../assets/difficulty3/reset_jim_password_1.png" alt="security question of jim" width="500px">
 
 ### Gathering Relevant Information
 
@@ -35,7 +35,7 @@ The "Login Jim" challenge tasks us to reset the Jim's password using the answer 
 
    - Search for information about James T. Kirk's family to find relevant answers for the security question.
 
-      <img src="../assets/difficulty3/reset_jim_password_2.png" alt="security question of jim" width="700px">
+      <img src="../assets/difficulty3/reset_jim_password_2.png" alt="security question of jim" width="500px">
 
    - Find that his brother's name is George Samuel Kirk
 
@@ -45,7 +45,7 @@ The "Login Jim" challenge tasks us to reset the Jim's password using the answer 
 4. **Testing the Security Answer**:
    - Use the name "George Samuel Kirk" as the answer to the security question in the account recovery or login process :
 
-   <img src="../assets/difficulty3/reset_jim_password_3.png" alt="security question of jim" width="700px">
+   <img src="../assets/difficulty3/reset_jim_password_3.png" alt="security question of jim" width="500px">
 
 ### Solution Explanation
 

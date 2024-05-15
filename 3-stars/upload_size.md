@@ -20,11 +20,11 @@ The "Upload Size" challenge requires uploading a file larger than 100 KB, which 
 1. **Testing File Upload**:
    - Attempt to upload a file larger than 100 KB directly through the profile image upload functionality.
 
-   <img src="../assets/difficulty3/upload_size_1.png" alt="large file" width="700px">
+   <img src="../assets/difficulty3/upload_size_1.png" alt="large file" width="500px">
 
    - Encounter an error: `MulterError: File too large`, indicating server-side enforcement of the file size limit.
 
-   <img src="../assets/difficulty3/upload_size_2.png" alt="error file too large" width="700px">
+   <img src="../assets/difficulty3/upload_size_2.png" alt="error file too large" width="500px">
 
 ### Analyzing the Application
 
@@ -42,11 +42,11 @@ The "Upload Size" challenge requires uploading a file larger than 100 KB, which 
 4. **Modifying the Request**:
    - Upload the `random.pdf` and intercept the HTTP request using Burp Suite.
 
-   <img src="../assets/difficulty3/upload_size_3.png" alt="request of upload" width="700px">
+   <img src="../assets/difficulty3/upload_size_3.png" alt="request of upload" width="500px">
 
    - Modify the intercepted request by duplicating the content within the file payload to push the size over 100 KB.
 
-   <img src="../assets/difficulty3/upload_size_4.png" alt="modified request of upload" width="700px">
+   <img src="../assets/difficulty3/upload_size_4.png" alt="modified request of upload" width="500px">
 
 ### Bypassing the Size Limit
 

@@ -26,7 +26,7 @@ This challenge involves changing the password of the user Bender to `slurmCl4ssi
    - Use an HTTP interception tool to capture the request made when attempting to change Bender's password.
    - Analyze the request to understand the parameters involved, especially focusing on how the current password is handled.
 
-   <img src="../assets/difficulty5/change_bender_password_1.png" alt="change password request" width="700px">
+   <img src="../assets/difficulty5/change_bender_password_1.png" alt="change password request" width="500px">
 
 
 ### Manipulating the Request
@@ -35,15 +35,15 @@ This challenge involves changing the password of the user Bender to `slurmCl4ssi
    - Attempt to change the password by modifying the `current` password field in various ways to explore potential weaknesses:
      - Try using an incorrect password directly — FAILED
 
-     <img src="../assets/difficulty5/change_bender_password_2.png" alt="false password" width="700px">
+     <img src="../assets/difficulty5/change_bender_password_2.png" alt="false password" width="500px">
 
      - Leave the `current` password field blank - FAILED
 
-     <img src="../assets/difficulty5/change_bender_password_3.png" alt="blank password" width="700px">
+     <img src="../assets/difficulty5/change_bender_password_3.png" alt="blank password" width="500px">
 
      - Remove the `current` password parameter entirely from the request - WORKED
 
-     <img src="../assets/difficulty5/change_bender_password_4.png" alt="removed password" width="700px">
+     <img src="../assets/difficulty5/change_bender_password_4.png" alt="removed password" width="500px">
 
 ### Successful Exploitation
 

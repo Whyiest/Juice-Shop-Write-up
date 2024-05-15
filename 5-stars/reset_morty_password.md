@@ -20,11 +20,11 @@ This challenge involves resetting the password for Morty's account (morty@juice-
 1. **Understanding the Challenge**:
    - The hints are the followings : 
    
-   <img src="../assets/difficulty5/reset_morty_password_1.png" alt="hints for this challenge" width="700px">
+   <img src="../assets/difficulty5/reset_morty_password_1.png" alt="hints for this challenge" width="500px">
 
    - Analyze the provided hints and fan page details to confirm the probable answers to the security question.
    
-    <img src="../assets/difficulty5/reset_morty_password_2.png" alt="fanpage" width="700px">
+    <img src="../assets/difficulty5/reset_morty_password_2.png" alt="fanpage" width="500px">
 
    - Based on provided hints, the potential answers are "Snuffles" or "SnowFall". The task is complicated by the requirement to use an obfuscated password that must be fewer than 10 characters, without special characters, and a necessity to bypass the anti-brute-force mechanism by manipulating the `X-Forwarded-For` header.
 

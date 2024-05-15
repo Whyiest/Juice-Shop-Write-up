@@ -20,7 +20,7 @@ This challenge focuses on exploiting a vulnerability related to the improper ver
 
 A JWT typically consists of three parts: Header, Payload, and Signature. The Header specifies the algorithm used for signing. 
 
-<img src="../assets/difficulty5/unsigned_jwt_3.png" alt="part of JWT" width="700px">
+<img src="../assets/difficulty5/unsigned_jwt_3.png" alt="part of JWT" width="500px">
 
 There is a lot of vulnerability that can be exploited related to JWT, but the one that we will exploit arises from the server not validating the signature properly. In fact, in the header part, we specify with which algorithm we have encrypted our signature. But there is a case where server is misconfigured and allows this part to be equal to "none".
 
@@ -43,7 +43,7 @@ Using JWT.io, I manipulated the JWT:
 
 We copy paste header and payload in clear text, seperatly, and we will copy paste them into a base 64 converter. 
 
-<img src="../assets/difficulty5/unsigned_jwt_5.png" alt="example conversion" width="700px">
+<img src="../assets/difficulty5/unsigned_jwt_5.png" alt="example conversion" width="500px">
 
 
 Note that there is tools that made this automatically, but since we have set signature to none, I prefer to do it manually to avoid errors. 
@@ -74,7 +74,7 @@ In case of errors, depending on where you try to input this JWT, you can try to 
 
 Replaced the legitimate JWT in the browser’s cookie storage with the forged JWT inside a whoami API request, and observe answer from the API :
 
-<img src="../assets/difficulty5/unsigned_jwt_6.png" alt="new JWT request" width="700px">
+<img src="../assets/difficulty5/unsigned_jwt_6.png" alt="new JWT request" width="500px">
 
 ## Solution Explanation
 

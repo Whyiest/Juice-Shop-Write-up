@@ -19,7 +19,7 @@ This challenge, named "Outdated Allowlist," involves exploiting unvalidated redi
 
 Upon interacting with the challenge, it's observed that the web application provides QR codes for cryptocurrency transactions. The JavaScript code managing these QR codes, found within the `main.js` file, reveals that specific cryptocurrency addresses are hard-coded, and there is a redirect function that points to these addresses based on the user's selection.
 
-<img src="../assets/difficulty1/outdated_allowlist_1.png" alt="allow list" width="700px">
+<img src="../assets/difficulty1/outdated_allowlist_1.png" alt="allow list" width="500px">
 
 ```javascript
 showBitcoinQrCode() {

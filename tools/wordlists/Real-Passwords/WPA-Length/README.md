@@ -37,14 +37,14 @@ However, each unique line appears only once in each file.
 
 ***
 
-<img src="https://raw.githubusercontent.com/berzerk0/Probable-Wordlists/master/ProbableWordlistLogo.png" alt="Probable Wordlists Logo" width="700px">
+<img src="https://raw.githubusercontent.com/berzerk0/Probable-Wordlists/master/ProbableWordlistLogo.png" alt="Probable Wordlists Logo" width="500px">
 
 ## Disclaimer and License
  + These lists are for LAWFUL, ETHICAL AND EDUCATIONAL PURPOSES ONLY.
  + The files contained in this repository are released "as is" without warranty, support, or guarantee of effectiveness.
  + *However, I am open to hearing about any issues found within these files and will be actively maintaining this repository for the foreseeable future. If you find anything noteworthy, let me know and I'll see what I can do about it.*
 
- [<img src="https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg" alt="License: CC BY-SA 4.0" width="700px">](http://creativecommons.org/licenses/by-sa/4.0/)
+ [<img src="https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg" alt="License: CC BY-SA 4.0" width="500px">](http://creativecommons.org/licenses/by-sa/4.0/)
 
  __This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License.](https://creativecommons.org/licenses/by-sa/4.0/)__
 

@@ -20,7 +20,7 @@ The "Bjoern’s Favorite Pet" challenge involves using open-source intelligence 
 1. **Identifying Bjoern’s Email**:
    - Accessed the administrative panel of the application to obtain Bjoern’s email address, which is `bjoern@owasp.org`.
 
-   <img src="../assets/difficulty3/bjoern_favorite_pet_1.png" alt="bjoern account on admin panel" width="700px">
+   <img src="../assets/difficulty3/bjoern_favorite_pet_1.png" alt="bjoern account on admin panel" width="500px">
 
 ### Using OSINT to Find the Pet's Name
 
@@ -28,14 +28,14 @@ The "Bjoern’s Favorite Pet" challenge involves using open-source intelligence 
    - Used Bjoern’s email address to search for his social media profiles. Located his Twitter account.
    - On Twitter, found a post by Bjoern featuring a picture of his cat named Zaya.
 
-   <img src="../assets/difficulty3/bjoern_favorite_pet_2.png" alt="post twitter" width="700px">
+   <img src="../assets/difficulty3/bjoern_favorite_pet_2.png" alt="post twitter" width="500px">
 
 ### Leveraging the Information
 
 3. **Answering the Security Question**:
    - With the name of Bjoern’s cat discovered, used "Zaya" as the answer to the security question associated with resetting or accessing his account.
 
-   <img src="../assets/difficulty3/bjoern_favorite_pet_3.png" alt="answer security" width="700px">
+   <img src="../assets/difficulty3/bjoern_favorite_pet_3.png" alt="answer security" width="500px">
 
 ### Solution Explanation
 

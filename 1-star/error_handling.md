@@ -25,7 +25,7 @@ To successfully complete the challenge, I followed these steps:
 
 The error was provoked by attempting to access an invalid URL on the server, which was intended to load unsupported file types or directories. The server responded with a detailed error message indicating:
 
-<img src="../assets/difficulty1/error_handling_1.png" alt="error" width="700px">
+<img src="../assets/difficulty1/error_handling_1.png" alt="error" width="500px">
 
 - **403 Error**: The server explicitly rejected the request due to the attempted access of a restricted or unsupported file type.
 - **Verbose Error Message**: The error message displayed detailed information about the server's configuration, specifically revealing that the server is running "Express JS version 4.17.1."

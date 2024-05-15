@@ -19,20 +19,20 @@ This challenge involves disabling the chatbot feature on the Juice Shop platform
 
 Upon initial analysis of the web page and its functionalities, the chatbot, identified as "juicy-chat-bot," seemed to operate based on a script loaded from an external source. Observations and code reviews suggested that the bot's operation might be controlled by conditions or flags that could potentially be manipulated.
 
-<img src="../assets/difficulty5/kill_chatbot_4.png" alt="hint to external" width="700px">
+<img src="../assets/difficulty5/kill_chatbot_4.png" alt="hint to external" width="500px">
 
 
 ### Step 2: Code Analysis
 
 The JavaScript code managing the chatbot included functions that controlled its online status and response mechanisms. It appeared to manage sessions and user interactions using tokens and possibly evaluated conditions for active responses.
 
-<img src="../assets/difficulty5/kill_chatbot_3.png" alt="js code" width="700px">
+<img src="../assets/difficulty5/kill_chatbot_3.png" alt="js code" width="500px">
 
 ### Step 3: Investigating External Dependencies
 
 The investigation led to the discovery of the bot's GitHub repository (https://github.com/juice-shop/juicy-chat-bot), which provided crucial insights into its dependencies and operational logic. 
 
-<img src="../assets/difficulty5/kill_chatbot_6.png" alt="hint to external" width="700px">
+<img src="../assets/difficulty5/kill_chatbot_6.png" alt="hint to external" width="500px">
 
 ### Step 4: Exploiting Script Evaluation
 

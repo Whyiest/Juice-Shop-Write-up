@@ -33,7 +33,7 @@ The "Manipulate Basket" challenge involves adding an item to another user's shop
    - I initially tried to change the `BasketId` in the intercepted request to another user's basket ID to test for direct object reference issues.
    - But I encounter access control checks that prevent adding items to a basket not owned by the user.
 
-   <img src="../assets/difficulty3/manipulate_basket_2.png" alt="error" width="700px">
+   <img src="../assets/difficulty3/manipulate_basket_2.png" alt="error" width="500px">
 
 ### Bypassing the Security Check
 
@@ -41,11 +41,11 @@ The "Manipulate Basket" challenge involves adding an item to another user's shop
    - Attempt to bypass the security mechanism by duplicating the `BasketId` parameter in the request body (overload).
    - First encountered an error, but it means that something is happening :
 
-    <img src="../assets/difficulty3/manipulate_basket_4.png" alt="error foreign key" width="700px">
+    <img src="../assets/difficulty3/manipulate_basket_4.png" alt="error foreign key" width="500px">
 
    - So I keep trying this way and I figured out that the server processes only the first `BasketId` for the security check but uses the second `BasketId` for the operation, successfully adding the item to another user's basket :
 
-    <img src="../assets/difficulty3/manipulate_basket_3.png" alt="error foreign key" width="700px">
+    <img src="../assets/difficulty3/manipulate_basket_3.png" alt="error foreign key" width="500px">
 
 ### Confirming the Exploit
 

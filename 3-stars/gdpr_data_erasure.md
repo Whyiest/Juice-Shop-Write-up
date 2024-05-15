@@ -25,12 +25,12 @@ The "GDPR Data Erasure" challenge requires to access an account that has been ma
 2. **Analyzing SQL Error Output**:
    - The error message leaked by the SQL server hints at the query structure, specifically showing how the application checks for a non-null `DeletedAt` field to determine if an account is considered deleted.
 
-   <img src="../assets/difficulty3/gdpr_data_erasure_1.png" alt="error message" width="700px">
+   <img src="../assets/difficulty3/gdpr_data_erasure_1.png" alt="error message" width="500px">
 
 3. **Injecting SQL to Target Deleted Accounts**:
    - Modify the login request to include an SQL injection payload that alters the query logic to return an account where `DeletedAt` is NOT NULL. This payload could look like: `' OR DeletedAt IS NOT NULL --`.
 
-   <img src="../assets/difficulty3/gdpr_data_erasure_2.png" alt="sql injection" width="700px">
+   <img src="../assets/difficulty3/gdpr_data_erasure_2.png" alt="sql injection" width="500px">
 
 
 ### Gaining Unauthorized Access

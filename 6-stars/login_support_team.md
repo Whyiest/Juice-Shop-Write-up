@@ -21,7 +21,7 @@ This challenge tasks the participant with accessing the account of the support t
 
 For the completion of the challenges, hints are important :
 
-<img src="../assets/difficulty6/login_support_team_1.png" alt="alt text" width="700px">
+<img src="../assets/difficulty6/login_support_team_1.png" alt="alt text" width="500px">
 
 - We discover that the team use an external secret manager to store their credentials. The most used worldwide is KeePass.
 - We can't use SQL Injection
@@ -39,7 +39,7 @@ Using `keepass2john`, I converted the `.kdbx` file to a hash format that is acce
 keepass2john incident-support.kdbx > keepasshash.txt
 ```
 
-<img src="../assets/difficulty6/login_support_team_6.png" alt="oupout" width="700px">
+<img src="../assets/difficulty6/login_support_team_6.png" alt="oupout" width="500px">
 
 The output provided a hash which is ready to be cracked.
 ```bash
@@ -56,11 +56,11 @@ john --wordlist=rockyou.txt keepasshash.txt
 
 This attempt was not sucessful, it looks like the password is not included in the wordlist. I tried to obtain more information about the password by searching "support" in the main.js, and I find a section related to resetting password for support team. 
 
-<img src="../assets/difficulty6/login_support_team_8.png" alt="support reset section" width="700px">
+<img src="../assets/difficulty6/login_support_team_8.png" alt="support reset section" width="500px">
 
 We also find an error message that can show up on console if user doing something wrong. The error message is obfuscated :
 
-<img src="../assets/difficulty6/login_support_team_9.png" alt="error message obfusacted" width="700px">
+<img src="../assets/difficulty6/login_support_team_9.png" alt="error message obfusacted" width="500px">
 
 It's writed in Romanian, we use google translator : "The support team password does not comply with the corporate policy for privileged accounts! Please change your password accordingly!"
 
@@ -78,11 +78,11 @@ We find that the password is `Support2022!`
 
 Once the password was cracked, I used it to unlock the KeePass database and retrieve the credentials for the support team account.
 
-<img src="../assets/difficulty6/login_support_team_11.png" alt="opened keepass" width="700px">
+<img src="../assets/difficulty6/login_support_team_11.png" alt="opened keepass" width="500px">
 
 Here is the credentials : 
 
-<img src="../assets/difficulty6/login_support_team_12.png" alt="credentials" width="700px">
+<img src="../assets/difficulty6/login_support_team_12.png" alt="credentials" width="500px">
 
 ### Step 5: Log in to the Support Team Account
 

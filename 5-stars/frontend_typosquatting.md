@@ -19,7 +19,7 @@ This challenge involves identifying a typographical error in the naming of a fro
 
 Navigated to `http://localhost:3000/3rdpartylicenses.txt` on the Juice Shop application to review the licensing and dependency information of third-party libraries included in the frontend built with Angular.
 
-<img src="../assets/difficulty5/frontend_typosquatting_1.png" alt="Angular Module List" width="700px">
+<img src="../assets/difficulty5/frontend_typosquatting_1.png" alt="Angular Module List" width="500px">
 
 ### Step 2: Identifying Suspicious Library
 

@@ -23,7 +23,7 @@ To complete the "Zero Stars" challenge, two different methods were successfully 
 2. **Submit Review**: Attempted to submit a review normally through the website's interface, capturing the outgoing request in Burp Suite.
 3. **Modify the Request**: Altered the `ratings` parameter in the intercepted request to `0`, despite the website originally not allowing a zero-star rating to be submitted through its user interface.
 
-<img src="../assets/difficulty1/zero_star_1.png" alt="request" width="700px">
+<img src="../assets/difficulty1/zero_star_1.png" alt="request" width="500px">
 
 4. **Forward the Request**: Sent the modified request to the server, successfully submitting a zero-star review.
 
@@ -32,7 +32,7 @@ To complete the "Zero Stars" challenge, two different methods were successfully 
 1. **Inspect Element**: Used the browser's developer tools to inspect the review submission button and found it disabled when attempting to give a zero-star rating.
 2. **Enable Submission Button**: Manually removed the `disabled="true"` attribute from the HTML of the submit button using the developer tools, enabling the button.
 
-<img src="../assets/difficulty1/zero_star_2.png" alt="code html" width="700px">
+<img src="../assets/difficulty1/zero_star_2.png" alt="code html" width="500px">
 
 3. **Submit the Form**: With the modified button state, submitted the form. Since the rating defaults to `null` when no stars are selected, the system processed this as a zero-star review due to lack of proper server-side validation.
 

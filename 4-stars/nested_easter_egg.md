@@ -33,7 +33,7 @@ This challenge ask us to decrypt a hidden message located within another Easter 
 3. **Finding the Nested Easter Egg**:
    - Use the decrypted path to navigate to `127.0.0.1:3000/the/devs/are/so/funny/they/hid/an/easter/egg/within/the/easter/egg` in a web browser.
 
-   <img src="../assets/difficulty4/nested_easter_egg_1.png" alt="nested easter egg" width="700px">
+   <img src="../assets/difficulty4/nested_easter_egg_1.png" alt="nested easter egg" width="500px">
 
    - Successfully access the true nested Easter egg, fulfilling the challenge’s objective.
 

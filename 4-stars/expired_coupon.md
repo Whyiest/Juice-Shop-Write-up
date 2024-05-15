@@ -20,7 +20,7 @@ This challenge required successfully applying an expired coupon code by manipula
 1. **Code Inspection**:
    - Initially, searching "coupon" into the JavaScript code of main.js revealed the function responsible for applying coupons. This function checks the coupon's validity against a client-side timestamp and a hardcoded list of valid campaigns.
 
-   <img src="../assets/difficulty4/expired_coupon_1.png" alt="coupon code" width="700px">
+   <img src="../assets/difficulty4/expired_coupon_1.png" alt="coupon code" width="500px">
 
 ### Step 2: Understanding Coupon Validity
 
@@ -32,14 +32,14 @@ This challenge required successfully applying an expired coupon code by manipula
 3. **Extracting Campaign Information**:
    - Found the list of campaigns by using CTRL+F in the JavaScript code, with their respective expiration timestamps and discounts.
 
-   <img src="../assets/difficulty4/expired_coupon_2.png" alt="campaigns" width="700px">
+   <img src="../assets/difficulty4/expired_coupon_2.png" alt="campaigns" width="500px">
 
 ### Step 4: Bypassing Time Validation
 
 4. **Manipulating System Time**:
    - We can select a valid coupon randomly from the list that we get, and then, we use an online converter to convert the value of the timestamp, which is in miliseconds, in a valid date :
 
-   <img src="../assets/difficulty4/expired_coupon_4.png" alt="conversion" width="700px">
+   <img src="../assets/difficulty4/expired_coupon_4.png" alt="conversion" width="500px">
 
    - Adjusted the computer's system time to match the timestamp of a chosen expired coupon (for instance, `WMNSDY2019`) that originally expired on a specific date converted from its `validOn` timestamp.
 

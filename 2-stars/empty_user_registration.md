@@ -19,14 +19,14 @@ The "Empty User Registration" challenge requires to exploit vulnerabilities rela
 
 We are tasked with creating an account but must find a way to bypass the normal validation checks that prevent registering with empty credentials.
 
-<img src="../assets/difficulty2/empty_user_registration_1.png" alt="normal user registration" width="700px">
+<img src="../assets/difficulty2/empty_user_registration_1.png" alt="normal user registration" width="500px">
 
 ### Steps Taken to Solve the Challenge
 
 1. **Intercept the Registration Request**:
    - Using Burp Suite, the registration request was intercepted during a normal registration attempt. This captured the POST request sent to `/api/Users/`.
 
-<img src="../assets/difficulty2/empty_user_registration_2.png" alt="request" width="700px">
+<img src="../assets/difficulty2/empty_user_registration_2.png" alt="request" width="500px">
 
 2. **Modify the Request Payload**:
    - Initially, attempts were made to set the `email` and `password` fields to empty strings ("") or `null` values, which resulted in a "Bad Request" error or undesired normal user creation, respectively.
@@ -35,7 +35,7 @@ We are tasked with creating an account but must find a way to bypass the normal 
 3. **Submit the Modified Request**:
    - After removing the `email` and `password` entries entirely from the JSON payload, the modified request was forwarded. This resulted in the server processing the request without these fields, leading to the creation of a user with no email and password.
 
-<img src="../assets/difficulty2/empty_user_registration_3.png" alt="request" width="700px">
+<img src="../assets/difficulty2/empty_user_registration_3.png" alt="request" width="500px">
 
 ### Solution Explanation
 

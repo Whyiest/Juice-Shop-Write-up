@@ -22,13 +22,13 @@ Using Burp Suite, I captured the HTTP POST request sent when a user likes a prod
 - **Method:** POST
 - **Data:** `{ "id": "review_id" }` (where `review_id` is the identifier of the review being liked)
 
-<img src="../assets/difficulty6/multiple_likes_2.png" alt="like request" width="700px">
+<img src="../assets/difficulty6/multiple_likes_2.png" alt="like request" width="500px">
 
 ### Step 2: Initial Testing
 
 Initially attempted to manually resend the captured request multiple times using Burp's Repeater tool. This method only succeeded in registering two likes instead of the required three to complete the challenge, indicating potential server-side throttling or deduplication logic. 
 
-<img src="../assets/difficulty6/multiple_likes_3.png" alt="only two like" width="700px">
+<img src="../assets/difficulty6/multiple_likes_3.png" alt="only two like" width="500px">
 
 Even if Burp's Repeater is fast, he is visibly not fast enough, so I need to find a way to make it faster.
 
@@ -37,7 +37,7 @@ Even if Burp's Repeater is fast, he is visibly not fast enough, so I need to fin
 
 To overcome the limitations observed with manual resending, I scripted a solution using Python. My idea to speed-up the process it to employ multi-threading to send simultaneous requests to the like endpoint.
 
-<img src="../assets/difficulty6/multiple_likes_4.png" alt="python scripts" width="700px">
+<img src="../assets/difficulty6/multiple_likes_4.png" alt="python scripts" width="500px">
 
 **Access the script:** You can find the used script in the tools folder of this repository :
 - [Folder link](https://github.com/whyiest/juice-shop-write-up/tree/main/tools)
@@ -45,13 +45,13 @@ To overcome the limitations observed with manual resending, I scripted a solutio
 
 Don't forget to add the three needed section in the script : Cookies, EMail and the most important, your bearer token. You can obtain all of them by peforming an action on Juice-Shop and capturing the request via Burp Suite or any other tool.
 
-<img src="../assets/difficulty6/multiple_likes_5.png" alt="python result" width="700px">
+<img src="../assets/difficulty6/multiple_likes_5.png" alt="python result" width="500px">
 
 ### Step 4: Verifying Success
 
 After running the script, I verified in the application that the review had received multiple likes (5 in this case) from the same user at the same time.
 
-<img src="../assets/difficulty6/multiple_likes_6.png" alt="comment result" width="700px">
+<img src="../assets/difficulty6/multiple_likes_6.png" alt="comment result" width="500px">
 
 ## Solution Explanation
 

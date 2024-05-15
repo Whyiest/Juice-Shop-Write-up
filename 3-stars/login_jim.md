@@ -25,7 +25,7 @@ The "Login Jim" challenge needs exploiting an SQL Injection vulnerability to byp
    - Input a crafted SQL command into the username or password field that alters the backend SQL query to always return true. Common SQLi payloads involve using `' OR '1'='1' --` to manipulate the SQL query.
    - For Jim, the payload would be entered in the username or password field: `' OR '1'='1' --`. This payload effectively makes the SQL query behind the authentication form return true, bypassing the need for a correct username and password.
 
-   <img src="image.png" alt="sql injection" width="700px">
+   <img src="image.png" alt="sql injection" width="500px">
 
 ### Gaining Access
 
