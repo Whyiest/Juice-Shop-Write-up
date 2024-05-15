@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Outdated Allowlist
-
-**Category:** Unvalidated Redirects
-
+**Title:** Outdated Allowlist\
+**Category:** Unvalidated Redirects\
 **Difficulty:** ⭐ (1/6)
 
 This challenge, named "Outdated Allowlist," involves exploiting unvalidated redirects and the use of an outdated list of allowed addresses in a web application's redirection mechanism. The task is to manipulate the URL to redirect to an unapproved or unintended cryptocurrency address by leveraging the weaknesses in the allowlist.

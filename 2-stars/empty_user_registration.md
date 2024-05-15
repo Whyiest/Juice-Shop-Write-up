@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Empty User Registration
-
-**Category:** Improper Input Validation
-
+**Title:** Empty User Registration\
+**Category:** Improper Input Validation\
 **Difficulty:** ⭐⭐ (2/6)
 
 The "Empty User Registration" challenge requires to exploit vulnerabilities related to improper input validation by registering a user with no email and password. This challenge tests the robustness of the application's user input validation mechanisms.

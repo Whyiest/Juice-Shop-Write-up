@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Weird Crypto
-
-**Category:** Cryptographic Issues
-
+**Title:** Weird Crypto\
+**Category:** Cryptographic Issues\
 **Difficulty:** ⭐⭐ (2/6)
 
 This challenge, "Weird Crypto," tests ability to identify and report the use of deprecated cryptographic methods within the application. Specifically, it focuses on the insecure implementation of password hashing.

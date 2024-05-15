@@ -3,7 +3,9 @@
 ## Challenge Overview
 
 **Title:** Easter Egg  
+
 **Category:** Broken Access Control  
+
 **Difficulty:** ⭐⭐⭐⭐ (4/6)
 
 The challenge involved discovering a hidden Easter egg within the application, requiring exploration of the application's directory structure and clever manipulation to access restricted file types.

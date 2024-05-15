@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Locate Security Policy File
-
-**Category:** OSINT/Discovery
-
+**Title:** Locate Security Policy File\
+**Category:** OSINT/Discovery\
 **Difficulty:** ⭐⭐ (2/6)
 
 This challenge involves locating a hidden `security.txt` file on a web server. `Security.txt` is a proposed standard that allows websites to define security policies.

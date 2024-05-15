@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** NFT Takeover
-
-**Category:** Sensitive Data Exposure
-
+**Title:** NFT Takeover\
+**Category:** Sensitive Data Exposure\
 **Difficulty:** ⭐⭐ (2/6)
 
 The "NFT Takeover" challenge involves gaining access to a digital wallet containing an official Soul Bound Token (NFT) by leveraging sensitive information exposed inadvertently through user feedback.

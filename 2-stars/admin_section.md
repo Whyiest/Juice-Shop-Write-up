@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Admin Section
-
-**Category:** Broken Access Control
-
+**Title:** Admin Section\
+**Category:** Broken Access Control\
 **Difficulty:** ⭐⭐ (2/6)
 
 The "Admin Section" challenge involves accessing a restricted administrative area of a web application. 

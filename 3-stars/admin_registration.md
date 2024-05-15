@@ -2,11 +2,9 @@
 
 ## Challenge Overview
 
-**Title:** Admin Registration
-
-**Category:** Improper Input Validation
-
-**Difficulty:** ⭐⭐ (2/6)
+**Title:** Admin Registration\
+**Category:** Improper Input Validation\
+**Difficulty:** ⭐⭐⭐ (3/6)
 
 The "Admin Registration" challenge tests ability to exploit vulnerabilities related to user registration processes, specifically focusing on input validation issues that allow elevating privileges during account creation.
 

@@ -3,7 +3,9 @@
 ## Challenge Overview
 
 **Title:** Payback Time
+
 **Category:** Business Logic Errors
+
 **Difficulty:** ⭐⭐⭐ (3/6)
 
 This challenge involves exploiting a business logic flaw to achieve unauthorized financial gain through manipulating product pricing in an e-commerce application.

@@ -3,7 +3,9 @@
 ## Challenge Overview
 
 **Title:** Christmas Offer  
+
 **Category:** Injection  
+
 **Difficulty:** ⭐⭐⭐⭐ (4/6)
 
 The goal of this challenge was to exploit an SQL Injection to access a hidden Christmas offer product that was presumably removed or hidden from the normal product listing (marked as deleted in the database).

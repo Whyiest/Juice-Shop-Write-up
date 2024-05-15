@@ -3,7 +3,9 @@
 ## Challenge Overview
 
 **Title:** Allowlist Bypass  
+
 **Category:** Broken Access Control  
+
 **Difficulty:** ⭐⭐⭐⭐ (4/6)
 
 This challenge required bypassing the allowlist functionality of URL redirection implemented in the OWASP Juice Shop application.

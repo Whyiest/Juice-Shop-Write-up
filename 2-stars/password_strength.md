@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Password Strength
-
-**Category:** Broken Authentication
-
+**Title:** Password Strength\
+**Category:** Broken Authentication\
 **Difficulty:** ⭐⭐ (2/6)
 
 The "Password Strength" challenge explores vulnerabilities associated with weak password policies, specifically focusing on the ease of brute-forcing the administrator's weak password. This challenge underscores the importance of implementing robust password policies to secure authentication mechanisms.

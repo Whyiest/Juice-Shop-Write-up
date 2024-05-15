@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Mass Dispel
-
-**Category:** Miscellaneous
-
+**Title:** Mass Dispel\
+**Category:** Miscellaneous\
 **Difficulty:** ⭐ (1/6)
 
 The "Mass Dispel" challenge requires participants to close multiple "Challenge solved" notifications in a single action. This challenge tests the ability to navigate and utilize application features efficiently, based on the documentation provided.

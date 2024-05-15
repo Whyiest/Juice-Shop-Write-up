@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Confidential Document
-
-**Category:** Sensitive Data Exposure
-
+**Title:** Confidential Document\
+**Category:** Sensitive Data Exposure\
 **Difficulty:** ⭐ (1/6)
 
 The challenge involves accessing and retrieving a confidential document named `acquisition.md` from an FTP server. This challenge highlights issues related to sensitive data exposure due to improper access control configurations.

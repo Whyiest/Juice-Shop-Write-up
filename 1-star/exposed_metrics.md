@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Exposed Metrics
-
-**Category:** Sensitive Data Exposure
-
+**Title:** Exposed Metrics\
+**Category:** Sensitive Data Exposure\
 **Difficulty:** ⭐ (1/6)
 
 The challenge involves discovering an exposed metrics endpoint in a web application. 

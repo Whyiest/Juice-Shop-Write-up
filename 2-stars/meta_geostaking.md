@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Meta Geo Stalking
-
-**Category:** Sensitive Data Exposure
-
+**Title:** Meta Geo Stalking\
+**Category:** Sensitive Data Exposure\
 **Difficulty:** ⭐⭐ (2/6)
 
 This challenge, "Meta Geo Stalking," tests ability to utilize metadata from images posted online to answer security questions and reset a user's password. 

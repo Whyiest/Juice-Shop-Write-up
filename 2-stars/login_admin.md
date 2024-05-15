@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Login Admin
-
-**Category:** SQL Injection
-
+**Title:** Login Admin\
+**Category:** SQL Injection\
 **Difficulty:** ⭐⭐ (2/6)
 
 This challenge, titled "Login Admin," requires exploiting an SQL Injection vulnerability within the authentication process of a web application to gain unauthorized access to the administrator's account.

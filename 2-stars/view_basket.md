@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** View Basket
-
-**Category:** Broken Access Control
-
+**Title:** View Basket\
+**Category:** Broken Access Control\
 **Difficulty:** ⭐⭐ (2/6)
 
 The "View Basket" challenge revolves around exploiting broken access control vulnerabilities within a web application. The specific vulnerability allows users to view the shopping basket details of other users by manipulating user-specific identifiers in web requests.

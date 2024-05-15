@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Deprecated Interface
-
-**Category:** Security Misconfiguration
-
+**Title:** Deprecated Interface\
+**Category:** Security Misconfiguration\
 **Difficulty:** ⭐⭐ (2/6)
 
 This challenge involves exploiting a deprecated interface that is no longer properly maintained or secured. 

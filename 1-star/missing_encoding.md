@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Missing Encoding
-
-**Category:** Improper Input Validation
-
+**Title:** Missing Encoding\
+**Category:** Improper Input Validation\
 **Difficulty:** ⭐ (1/6)
 
 This challenge tasks participants with retrieving a specific image from a web application that fails to load due to encoding issues in its URL. This involves understanding how web browsers handle URLs and the importance of proper URL encoding.

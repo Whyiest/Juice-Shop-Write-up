@@ -2,9 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Poison Null Byte
-
-**Category:** Improper Input Validation
+**Title:** Poison Null Byte\
+**Category:** Improper Inpu Validation
 
 **Difficulty:** ⭐⭐⭐⭐ (4/6)
 
