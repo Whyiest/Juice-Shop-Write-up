@@ -29,7 +29,7 @@ Upon analyzing the login mechanism, it was noted that inserting special characte
 2. **Modify the SQL Query**:
    - Modified the email field in the JSON payload to `admin@juice-sh.op' OR '1'='1' --`, effectively turning the SQL command into a statement that always returns true, bypassing the need for a password.
 
-    <img src="../assets/difficulty2/login_admin_2.png" alt="modified request" width="500px">
+   <img src="../assets/difficulty2/login_admin_2.png" alt="modified request" width="500px">
     
 3. **Execute the Injected Request**:
    - The modified request was sent to the server. Due to the injected SQL code, the condition `OR '1'='1'` always evaluates as true, allowing unauthorized access to the administrator's account.

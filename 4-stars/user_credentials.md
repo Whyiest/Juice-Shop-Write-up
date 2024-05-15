@@ -45,6 +45,7 @@ This challenge was about exploiting an SQL Injection vulnerability to extract se
    - Initially, a basic union query was attempted to retrieve data from the `USERS` table: `test' UNION SELECT * FROM USERS /**/`. This resulted in an error indicating a mismatch in the number of columns.
 
    <img src="../assets/difficulty4/user_credentials_5.png" alt="endpoint syntax error" width="500px">
+
    <img src="../assets/difficulty4/user_credentials_6.png" alt="select union error" width="500px">
 
 

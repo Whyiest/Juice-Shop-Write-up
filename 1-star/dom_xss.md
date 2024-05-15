@@ -32,7 +32,7 @@ The challenge involves injecting an XSS payload into a dynamic content area of a
 4. **Execute the Attack**:
    - Navigating to the manipulated URL resulted in the execution of the malicious script, displaying an alert box indicating a successful XSS attack.
 
-<img src="../assets/difficulty1/dom_xss_1.png" alt="alt text" width="500px">
+   <img src="../assets/difficulty1/dom_xss_1.png" alt="alt text" width="500px">
 
 ### Solution Explanation
 

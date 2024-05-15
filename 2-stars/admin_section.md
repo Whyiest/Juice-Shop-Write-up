@@ -21,13 +21,13 @@ The "Admin Section" challenge involves accessing a restricted administrative are
    - Using the browser's developer tools, the `main.js` file was examined. This file contained definitions for various application routes (paths and components), including a path for an "administration" section.
    - The route setup indicated that the administration area could be accessed directly if the correct path was known.
 
-<img src="../assets/difficulty2/admin_section_1.png" alt="routes" width="500px">
+   <img src="../assets/difficulty2/admin_section_1.png" alt="routes" width="500px">
 
 2. **Direct Path Access**:
    - Accessed the path `127.0.0.1:3000/#/administration` directly by entering it in the browser's address bar.
    - Initially, this approach led to an access-denied page due to insufficient permissions.
 
-<img src="../assets/difficulty2/admin_section_2.png" alt="permissions" width="500px">
+   <img src="../assets/difficulty2/admin_section_2.png" alt="permissions" width="500px">
 
 ### Gaining Administrative Access
 
@@ -35,7 +35,7 @@ The "Admin Section" challenge involves accessing a restricted administrative are
    - Logged in with an administrator account credentials.
    - Revisited the `/administration` path which now successfully displayed the administrative dashboard, demonstrating improper access control that relies solely on the obscurity of the path.
 
-<img src="../assets/difficulty2/admin_section_3.png" alt="page access" width="500px">
+   <img src="../assets/difficulty2/admin_section_3.png" alt="page access" width="500px">
 
 
 ### Solution Explanation

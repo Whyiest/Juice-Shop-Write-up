@@ -31,6 +31,7 @@ Content-Type: application/json
 ```
 
 In Burp suite, looks like this :
+
 <img src="../assets/difficulty4/nosql_manipulation_1.png" alt="burp suite request" width="500px">
 
 

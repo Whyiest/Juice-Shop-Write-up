@@ -22,7 +22,7 @@ The "Deluxe Fraud" challenge involves manipulating the web application to obtain
 1. **Navigating to Deluxe Membership Page**:
    - Accessed the Deluxe Membership page at `http://127.0.0.1:3000/#/deluxe-membership` and was presented with an error message stating the user is not eligible for the membership.
 
-<img src="../assets/difficulty3/deluxe_fraud_1.png" alt="error message" width="500px">
+   <img src="../assets/difficulty3/deluxe_fraud_1.png" alt="error message" width="500px">
 
 
 ### Analyzing the Membership Eligibility Request

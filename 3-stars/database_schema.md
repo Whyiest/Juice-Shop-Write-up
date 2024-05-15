@@ -54,11 +54,17 @@ To prevent similar vulnerabilities:
 
 For future use in others challenges, here is the complete schema of the Juice Shop database :
 
-   <img src="../assets/difficulty3/database_schema_2.png" alt="database schema" width="500px">
+<img src="../assets/difficulty3/database_schema_2.png" alt="database schema" width="500px">
+
    <img src="../assets/difficulty3/database_schema_3.png" alt="database schema" width="500px">
+
    <img src="../assets/difficulty3/database_schema_4.png" alt="database schema" width="500px">
+
    <img src="../assets/difficulty3/database_schema_5.png" alt="database schema" width="500px">
+
    <img src="../assets/difficulty3/database_schema_6.png" alt="database schema" width="500px">
+
    <img src="../assets/difficulty3/database_schema_7.png" alt="database schema" width="500px">
+
    <img src="../assets/difficulty3/database_schema_8.png" alt="database schema" width="500px">
 

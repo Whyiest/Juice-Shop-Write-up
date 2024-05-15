@@ -31,6 +31,7 @@ Inspected the source code of the page to understand how images are loaded and di
 We can find the default source in the main.js also : 
 
 <img src="../assets/difficulty5/cross_site_imaging_6.png" alt="sources of main image" width="500px">
+
 <img src="../assets/difficulty5/cross_site_imaging_7.png" alt="sources of stickers images" width="500px">
 
 

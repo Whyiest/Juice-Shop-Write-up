@@ -49,7 +49,7 @@ This challenge involves exploiting a business logic flaw to achieve unauthorized
    - Modified the intercepted request, setting the price parameter to a negative value.
    - The server accepted this modified request, updating the product price to the negative value.
 
-     <img src="../assets/difficulty3/payback_time_6.png" alt="updated product" width="500px">
+   <img src="../assets/difficulty3/payback_time_6.png" alt="updated product" width="500px">
 
 4. **Exploit Negative Pricing**:
    - Purchased the product with the negative price.

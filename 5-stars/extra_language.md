@@ -34,6 +34,7 @@ This challenge involves exploiting the language selection feature to access a hi
 ### Step 2: Exploring Available Languages
 
 - I used the official page of the project to search section related to langages development, as suggested in the hint. I find this particular section into the companion guide : 
+
 <img src="../assets/difficulty5/extra_language_2.png" alt="screenshot from companion guide that give us the link of Crowdin project" width="500px">
 
 - We can see that everyone is able to contribute via a Crowdin project.

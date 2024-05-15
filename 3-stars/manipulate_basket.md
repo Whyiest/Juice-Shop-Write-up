@@ -41,11 +41,11 @@ The "Manipulate Basket" challenge involves adding an item to another user's shop
    - Attempt to bypass the security mechanism by duplicating the `BasketId` parameter in the request body (overload).
    - First encountered an error, but it means that something is happening :
 
-    <img src="../assets/difficulty3/manipulate_basket_4.png" alt="error foreign key" width="500px">
+   <img src="../assets/difficulty3/manipulate_basket_4.png" alt="error foreign key" width="500px">
 
    - So I keep trying this way and I figured out that the server processes only the first `BasketId` for the security check but uses the second `BasketId` for the operation, successfully adding the item to another user's basket :
 
-    <img src="../assets/difficulty3/manipulate_basket_3.png" alt="error foreign key" width="500px">
+   <img src="../assets/difficulty3/manipulate_basket_3.png" alt="error foreign key" width="500px">
 
 ### Confirming the Exploit
 

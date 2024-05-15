@@ -26,7 +26,9 @@ This challenge involves logging into the account of Uvogin at Juice Shop using i
    - Uvogin's comments are consistently written in Leet Speak, substituting letters with numbers and special characters.
 
    <img src="../assets/difficulty4/login_uvogin_1.png" alt="leet 1" width="500px">
+
    <img src="../assets/difficulty4/login_uvogin_2.png" alt="leet 2" width="500px">
+
    <img src="../assets/difficulty4/login_uvogin_3.png" alt="leet 3" width="500px">
 
    - Comments like "0 stars for this horrible security" showcase his frustration and hint at his distinct style of communication.

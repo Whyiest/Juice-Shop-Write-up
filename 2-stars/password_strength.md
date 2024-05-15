@@ -20,7 +20,7 @@ The "Password Strength" challenge explores vulnerabilities associated with weak 
 1. **Locate Administrator's Email**:
    - Scanned the website for visible or hidden mentions of the administrator's email. Comments in the website's source code revealed the email address: `admin@juice-sh.op`.
 
-<img src="../assets/difficulty2/password_strength_1.png" alt="email" width="500px">
+   <img src="../assets/difficulty2/password_strength_1.png" alt="email" width="500px">
 
 ### Brute Force Attack
 
@@ -28,18 +28,18 @@ The "Password Strength" challenge explores vulnerabilities associated with weak 
    - Attempted to log in with the administrator email and a random password.
    - Intercepted the login request using Burp Suite to capture the request details necessary for the brute-force attack.
 
-<img src="../assets/difficulty2/password_strength_2.png" alt="login capture" width="500px">
+   <img src="../assets/difficulty2/password_strength_2.png" alt="login capture" width="500px">
 
 3. **Setup Brute Force in Burp Suite**:
    - Configured Burp Suite's Intruder module to use a list of common passwords, replacing the placeholder password with each entry from the list during the attack.
 
-<img src="../assets/difficulty2/password_strength_3.png" alt="request" width="500px">
+   <img src="../assets/difficulty2/password_strength_3.png" alt="request" width="500px">
 
 4. **Execute the Attack**:
    - Ran the brute force attack and monitored the responses for successful authentication indicators.
    - Successfully authenticated using the password: `admin123`.
 
-<img src="../assets/difficulty2/password_strength_4.png" alt="result" width="500px">
+   <img src="../assets/difficulty2/password_strength_4.png" alt="result" width="500px">
 
 
 ### Solution Explanation

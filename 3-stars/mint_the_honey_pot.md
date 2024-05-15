@@ -20,7 +20,7 @@ This challenge involves accumulating a digital currency known as BEEs from the "
 1. **Navigate to the Bee Haven**:
    - Find the page path by searching "bee" in main.js :
 
-    <img src="../assets/difficulty3/mint_the_honey_pot_1.png" alt="path" width="500px">
+   <img src="../assets/difficulty3/mint_the_honey_pot_1.png" alt="path" width="500px">
 
    - Access the Bee Haven within the OWASP Juice Shop by navigating to the `/bee-haven` path as discovered in the main.js routing setup.
 

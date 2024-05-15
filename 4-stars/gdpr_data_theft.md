@@ -32,7 +32,7 @@ The web application has a feature that allows users to export their data. The pr
    - Tried changing the client-side time to bypass the time check, which failed due to server-side validation.
    - Considered using XSS to bypass or manipulate session storage but recalled the challenge hint against using injections.
 
-<img src="../assets/difficulty4/gdpr_data_theft_2.png" alt="xss" width="500px">
+   <img src="../assets/difficulty4/gdpr_data_theft_2.png" alt="xss" width="500px">
 
 3. **Exploring User Identification**:
    - Noticed from others challenges that the application obfuscates email addresses in certain requests by replacing parts of the email with asterisks, likely as a privacy measure.
