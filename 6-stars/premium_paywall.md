@@ -24,13 +24,13 @@ http://127.0.0.1:3000/encryptionkeys
 ```
 This directory listed a file named `premium.key`, which was promptly downloaded.
 
-![key folder](../assets/difficulty6/premium_paywall_2.png)
+<img src="../assets/difficulty6/premium_paywall_2.png" alt="key folder" width="700px">
 
 ### Step 2: Analyzing the Key
 
 Screenshot of the inside of the file : 
 
-![key file](../assets/difficulty6/premium_paywall_3.png)
+<img src="../assets/difficulty6/premium_paywall_3.png" alt="key file" width="700px">
 
 The content of `premium.key` seemed to be a hexadecimal string, likely used as an encryption key:
 

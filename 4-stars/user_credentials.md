@@ -20,11 +20,11 @@ This challenge was about exploiting an SQL Injection vulnerability to extract se
 1. **Exploration**:
    - Initially, I tried various inputs such as the login form were tested for SQL Injection vulnerabilities but did not yield results.
 
-   ![sql injection](../assets/difficulty4/user_credentials_1.png)
+   <img src="../assets/difficulty4/user_credentials_1.png" alt="sql injection" width="700px">
 
    - Attention was redirected towards the endpoint of product search feature which appeared to interact directly with the database. I find this endpoint in requests :
 
-   ![request product using burp](../assets/difficulty4/user_credentials_2.png)
+   <img src="../assets/difficulty4/user_credentials_2.png" alt="request product using burp" width="700px">
 
 
 ### Step 2: Testing for SQL Injection
@@ -32,11 +32,11 @@ This challenge was about exploiting an SQL Injection vulnerability to extract se
 2. **Exploiting the Search Feature**:
    - Basic search produce a JSON result which mean that we can interact with this API client side :
    
-   ![endpoint search](../assets/difficulty4/user_credentials_3.png)
+   <img src="../assets/difficulty4/user_credentials_3.png" alt="endpoint search" width="700px">
 
    - An attempt to perform a basic SQL injection was made using the search functionality by appending `' OR 1=1 /**/` to the search term, which successfully bypassed the initial search logic.
 
-   ![full search](../assets/difficulty4/user_credentials_4.png)
+   <img src="../assets/difficulty4/user_credentials_4.png" alt="full search" width="700px">
 
 
 ### Step 3: Crafting the Injection Query
@@ -44,8 +44,8 @@ This challenge was about exploiting an SQL Injection vulnerability to extract se
 3. **Determining Table Structure**:
    - Initially, a basic union query was attempted to retrieve data from the `USERS` table: `test' UNION SELECT * FROM USERS /**/`. This resulted in an error indicating a mismatch in the number of columns.
 
-   ![endpoint syntax error](../assets/difficulty4/user_credentials_5.png)
-   ![select union error](../assets/difficulty4/user_credentials_6.png)
+   <img src="../assets/difficulty4/user_credentials_5.png" alt="endpoint syntax error" width="700px">
+   <img src="../assets/difficulty4/user_credentials_6.png" alt="select union error" width="700px">
 
 
    - Through further experimentation, the correct number of columns was determined, and the query was refined to: `test')) UNION SELECT username, password, role, deletedAt, isActive, createdAt, id, deluxeToken, profileImage FROM USERS--`.
@@ -55,11 +55,11 @@ This challenge was about exploiting an SQL Injection vulnerability to extract se
 4. **Successful Data Extraction**:
    - Adjusting the query to match the column structure of the `Products` table allowed for the successful extraction of user credentials.
 
-   ![payload result](../assets/difficulty4/user_credentials_7.png)
+   <img src="../assets/difficulty4/user_credentials_7.png" alt="payload result" width="700px">
 
    - To trigger the challenge flag, it was necessary to include the `email` field in the injection query, resulting in the final payload: `test')) UNION SELECT username, password, role, deletedAt, isActive, createdAt, id, email, profileImage FROM USERS--`.
 
-   ![new payload result](../assets/difficulty4/user_credentials_8.png)
+   <img src="../assets/difficulty4/user_credentials_8.png" alt="new payload result" width="700px">
 
 
 ## Solution Explanation

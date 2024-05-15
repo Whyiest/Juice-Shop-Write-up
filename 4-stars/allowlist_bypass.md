@@ -20,14 +20,14 @@ This challenge required bypassing the allowlist functionality of URL redirection
 1. **Initial Exploration**:
    - Started by reviewing the `main.js` for how redirects are managed and handled within the application. To do this, I searched for "review" keyword. This revealed the basic form of the redirection URL as `127.0.0.1:3000/redirect?to=targetURL`.
    
-   ![redirect example](../assets/difficulty4/allowlist_bypass_1.png)
+   <img src="../assets/difficulty4/allowlist_bypass_1.png" alt="redirect example" width="700px">
 
 ### Step 2: Testing and Understanding Allowlist
 
 2. **Testing with Non-Allowlisted URL**:
    - Used a common external URL (google.com) to test the redirect functionality. This attempt was blocked, confirming the presence of an allowlist mechanism.
 
-   ![not allowed to redirect error](../assets/difficulty4/allowlist_bypass_2.png)
+   <img src="../assets/difficulty4/allowlist_bypass_2.png" alt="not allowed to redirect error" width="700px">
 
    - The error pointed to the location of the allowlist check in the source code (`/juice-shop/build/routes/redirect.js`), providing a potential file path for further investigation.
 

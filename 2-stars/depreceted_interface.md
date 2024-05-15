@@ -25,17 +25,17 @@ This challenge involves exploiting a deprecated interface that is no longer prop
 2. **Inspecting the JavaScript**:
    - Using browser developer tools, examined the `main.js` file that outlined the functionality for the deprecated `/complain` interface. Noted that a file uploader was part of this form.
    
-![complain](../assets/difficulty2/depreceted_interface_1.png)
+<img src="../assets/difficulty2/depreceted_interface_1.png" alt="complain" width="700px">
 
    - Observed that the uploader's code attempted to restrict file uploads to certain MIME types (`application/pdf`, `text/xml`, `application/zip`, etc.).
 
-![restriction about the type](../assets/difficulty2/depreceted_interface_2.png)
+<img src="../assets/difficulty2/depreceted_interface_2.png" alt="restriction about the type" width="700px">
 
 3. **Manipulating File Uploads**:
    - Tested the uploader with a normal XML file, which was blocked. Changed the file extension to `.xml.zip` and tried uploading, but initially, it did not pass.
    - Modified the filename to remove `.zip` after selecting the file but before uploading, tricking the uploader into accepting an XML file without the `.zip` extension, bypassing the client-side checks.
 
-   ![request modified](../assets/difficulty2/depreceted_interface_3.png)
+   <img src="../assets/difficulty2/depreceted_interface_3.png" alt="request modified" width="700px">
 
 ### Exploiting the File Upload Vulnerability
 

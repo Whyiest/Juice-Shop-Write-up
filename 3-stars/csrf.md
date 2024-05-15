@@ -22,7 +22,7 @@ The challenge "CSRF" involves executing a Cross-Site Request Forgery (CSRF) atta
    - Use Burp Suite to intercept and examine HTTP requests made while changing the username through the application’s profile page.
    - Identify the POST request that changes the username, specifically noting the URL and form parameters.
 
-    ![request](../assets/difficulty3/csrf_2.png)
+    <img src="../assets/difficulty3/csrf_2.png" alt="request" width="700px">
 
 ### Constructing the CSRF Attack Page
 

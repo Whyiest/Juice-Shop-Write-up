@@ -19,7 +19,7 @@ The objective of this challenge is to exploit improper access control in the Jui
 
 Initially, by analyzing the network traffic during various interactions with the application since the start of this walkthrough, the `/rest/user/whoami` endpoint was identified as potentially interesting because it provides user data in response to requests.
 
-![screenshot of the endpoint](../assets/difficulty5/email_leak_1.png)
+<img src="../assets/difficulty5/email_leak_1.png" alt="screenshot of the endpoint" width="700px">
 
 ### Step 2: Unauthorized Data Access
 
@@ -35,7 +35,7 @@ Given the nature of the data leak and the lack of proper access controls, the po
 
 - **Callback Injection:** By modifying the request to include a `callback` parameter (`/rest/user/whoami?callback=test`), it was observed whether the application improperly wrapped JSON data in a JavaScript function, potentially leading to Cross-Site Scripting (XSS) or data exfiltration scenarios.
 
-![url](../assets/difficulty5/email_leak_2.png)
+<img src="../assets/difficulty5/email_leak_2.png" alt="url" width="700px">
 
 ### Step 4: Exploitation
 

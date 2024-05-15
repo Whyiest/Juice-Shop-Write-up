@@ -28,7 +28,7 @@ The "Five-Star Feedback" challenge requires to manipulate the review system of a
 3. **Identify Five-Star Reviews**:
    - Reviews are typically displayed with associated star ratings. Identified all entries with a five-star rating ready for deletion.
    
-![admin panel view](../assets/difficulty2/five_star_feedback_1.png)
+<img src="../assets/difficulty2/five_star_feedback_1.png" alt="admin panel view" width="700px">
 
 
 ### Solution Explanation

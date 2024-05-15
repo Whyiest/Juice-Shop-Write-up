@@ -20,7 +20,7 @@ The challenge, "Product Tempering," involves changing the href attribute of a hy
 1. **Access Control Check**:
    - Navigate to the accounting section where products can be updated, indicating a possible lack of strict access controls on who can modify product details.
 
-    ![admin panel](../assets/difficulty3/product_tampering_1.png)
+    <img src="../assets/difficulty3/product_tampering_1.png" alt="admin panel" width="700px">
 
 ### Attempting the Update
 
@@ -28,7 +28,7 @@ The challenge, "Product Tempering," involves changing the href attribute of a hy
    - Capture the request sent when updating a product description using developer tools or Burp Suite.
    - Initial attempts to modify the description by overiding it did not reflect changes, suggesting backend validation or filtering of input.
 
-    ![override](../assets/difficulty3/product_tampering_2.png)
+    <img src="../assets/difficulty3/product_tampering_2.png" alt="override" width="700px">
     
 ### Exploring API Endpoints
 
@@ -37,7 +37,7 @@ The challenge, "Product Tempering," involves changing the href attribute of a hy
    - Identify the specific product ID for the "OWASP SSL Advanced Forensic Tool (O-Saft)" from the JSON response.
    - Identify that this endpoint is vulnerable to description override :
 
-   ![descritpion override](../assets/difficulty3/product_tampering_3.png)
+   <img src="../assets/difficulty3/product_tampering_3.png" alt="descritpion override" width="700px">
 
 ### Successful Payload Delivery
 
@@ -45,7 +45,7 @@ The challenge, "Product Tempering," involves changing the href attribute of a hy
    - Construct a JSON payload with the `description` field altered to include the new hyperlink: `<a href="https://owasp.slack.com" target="_blank">More...</a>`.
    - Submit the modified payload to the API endpoint responsible for updating product details, e.g., `/api/Products/[ID]`, using the correct product ID.
 
-    ![modified request](../assets/difficulty3/product_tampering_4.png)
+    <img src="../assets/difficulty3/product_tampering_4.png" alt="modified request" width="700px">
 
 ### Verifying the Result
 

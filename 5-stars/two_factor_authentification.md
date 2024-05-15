@@ -19,11 +19,11 @@ The challenge requires bypassing the two-factor authentication (2FA) mechanism o
 
 Reviewed the fundamentals of TOTP, which is a common 2FA method that uses a secret key and the current time to generate a temporary passcode, usually changing every 30 seconds. The process involves hashing the time and secret key to produce a short-lived authentication code. I found this schema which explain greatly this concept : 
 
-![explanation schema](../assets/difficulty5/two_factor_authentification_2.png)
+<img src="../assets/difficulty5/two_factor_authentification_2.png" alt="explanation schema" width="700px">
 
 In summary we have the following algorigram : 
 
-![algorithm](../assets/difficulty5/two_factor_authentification_4.png)
+<img src="../assets/difficulty5/two_factor_authentification_4.png" alt="algorithm" width="700px">
 
 If you have not understand this concept, I suggest you to read this article : https://rublon.com/blog/what-is-totp/
 
@@ -50,7 +50,7 @@ The attack returned several user details, importantly including the TOTP secret 
 
 Used a TOTP generator tool, inputting the extracted secret key and syncing it with the current UNIX time to generate a valid 2FA code.
 
-![TOPT Generator](../assets/difficulty5/two_factor_authentification_5.png)
+<img src="../assets/difficulty5/two_factor_authentification_5.png" alt="TOPT Generator" width="700px">
 
 ### Step 5: Bypassing 2FA
 

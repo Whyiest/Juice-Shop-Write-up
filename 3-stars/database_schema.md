@@ -26,7 +26,7 @@ The "Database Schema" challenge tests skills in extracting the database schema t
    - Utilize the SQL UNION operator to inject a query that will reveal the database schema. Because the product search results are displayed in a structured format, and it is known that product entries typically have multiple attributes (columns), the SQL injection payload must account for the correct number of columns.
    - Use the payload: `test')) UNION SELECT 1, 2, 3, 4, 5, 6, 7, 8, sql FROM sqlite_schema--` to align with the expected number of columns in the original query and extract schema information from the `sqlite_schema` table.
 
-   ![sql injection](../assets/difficulty3/database_schema_1.png)
+   <img src="../assets/difficulty3/database_schema_1.png" alt="sql injection" width="700px">
 
 ### Extracting the Schema
 
@@ -54,11 +54,11 @@ To prevent similar vulnerabilities:
 
 For future use in others challenges, here is the complete schema of the Juice Shop database :
 
-   ![database schema](../assets/difficulty3/database_schema_2.png)
-   ![database schema](../assets/difficulty3/database_schema_3.png)
-   ![database schema](../assets/difficulty3/database_schema_4.png)
-   ![database schema](../assets/difficulty3/database_schema_5.png)
-   ![database schema](../assets/difficulty3/database_schema_6.png)
-   ![database schema](../assets/difficulty3/database_schema_7.png)
-   ![database schema](../assets/difficulty3/database_schema_8.png)
+   <img src="../assets/difficulty3/database_schema_2.png" alt="database schema" width="700px">
+   <img src="../assets/difficulty3/database_schema_3.png" alt="database schema" width="700px">
+   <img src="../assets/difficulty3/database_schema_4.png" alt="database schema" width="700px">
+   <img src="../assets/difficulty3/database_schema_5.png" alt="database schema" width="700px">
+   <img src="../assets/difficulty3/database_schema_6.png" alt="database schema" width="700px">
+   <img src="../assets/difficulty3/database_schema_7.png" alt="database schema" width="700px">
+   <img src="../assets/difficulty3/database_schema_8.png" alt="database schema" width="700px">
 

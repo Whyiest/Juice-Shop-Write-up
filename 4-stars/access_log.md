@@ -20,7 +20,7 @@ This challenge tasked us with gaining access to any of the server's access log f
 1. **Initial Attempts**:
    - Began by trying to locate the log files through commonly known SIEM endpoints and directory traversal methods. Initial efforts included trying to access well-known SIEM tool endpoints (such as Splunk's standard paths) directly through the browser but were met with HTTP errors or blank pages.
 
-   ![error in path](../assets/difficulty4/access_log_1.png)
+   <img src="../assets/difficulty4/access_log_1.png" alt="error in path" width="700px">
 
 ### Step 2: Understanding Application Structure
 
@@ -42,7 +42,7 @@ This challenge tasked us with gaining access to any of the server's access log f
 5. **Downloading Logs**:
    - Found and downloaded the logs listed on the `/support/logs` page. This confirmed that the correct log files were exposed and accessible, validating the challenge.
 
-   ![log page](../assets/difficulty4/access_log_2.png)
+   <img src="../assets/difficulty4/access_log_2.png" alt="log page" width="700px">
 
 ## Solution Explanation
 

@@ -25,14 +25,14 @@ This challenge involved finding information about a potentially hazardous produc
 2. **SQL Injection to Uncover Hidden Products**:
    - Utilized the query `test')) UNION SELECT * FROM PRODUCTS WHERE deletedAt IS NOT NULL--` to fetch products that were hidden from the standard listings, assumed to have been removed due to safety concerns or other reasons.
 
-   ![removed product](../assets/difficulty4/leaked_unsafe_product_4.png)
+   <img src="../assets/difficulty4/leaked_unsafe_product_4.png" alt="removed product" width="700px">
 
 ### Step 3: Analyzing the Output
 
 3. **Reviewing Deleted Products**:
    - Among the retrieved products, the "Rippertuer Special Juice" was identified based on its unique description and suspect ingredients listed.
 
-   ![dangerous product](../assets/difficulty4/leaked_unsafe_product_1.png)
+   <img src="../assets/difficulty4/leaked_unsafe_product_1.png" alt="dangerous product" width="700px">
 
 ### Step 4: Investigating Unsafe Ingredients
 
@@ -41,14 +41,14 @@ This challenge involved finding information about a potentially hazardous produc
    - I searched on Google the name of the beverage and I find a Pastebin link which detailed the composition of the "Rippertuer Special Juice".
    - Inside the composition I find this line : 
 
-   ![unsafe](../assets/difficulty4/leaked_unsafe_product_2.png)
+   <img src="../assets/difficulty4/leaked_unsafe_product_2.png" alt="unsafe" width="700px">
 
 ### Step 5: Reporting the Hazardous Ingredient
 
 5. **Finding the Problematic Ingredient**:
    - Discovered that the juice contained Hueteroneel (Manchineel fruit), which is extremely toxic and unsafe for consumption, especially when combined with Eurogium Edule. So I reported it to complain section : 
     
-   ![complain](../assets/difficulty4/leaked_unsafe_product_3.png)
+   <img src="../assets/difficulty4/leaked_unsafe_product_3.png" alt="complain" width="700px">
 
 
 ## Solution Explanation

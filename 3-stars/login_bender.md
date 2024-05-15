@@ -20,7 +20,7 @@ This challenge focuses on exploiting an SQL injection vulnerability to bypass au
    - Logged into the application as an admin to access administrative functionalities.
    - Located Bender's email (`bender@juice-sh.op`) within the admin panel :
 
-![bender username from administration panel](../assets/difficulty3/login_bender_1.png)
+<img src="../assets/difficulty3/login_bender_1.png" alt="bender username from administration panel" width="700px">
 
 ### Performing SQL Injection
 
@@ -38,7 +38,7 @@ This challenge focuses on exploiting an SQL injection vulnerability to bypass au
    - With the payload submitted, the SQL query altered by the injection would incorrectly authenticate the session as Bender without requiring a password.
    - Successfully logged in as Bender, demonstrating the exploitation of the SQL injection vulnerability.
 
-   ![login proof](../assets/difficulty3/login_bender_2.png)
+   <img src="../assets/difficulty3/login_bender_2.png" alt="login proof" width="700px">
 
 ## Solution Explanation
 

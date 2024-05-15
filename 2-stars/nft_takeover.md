@@ -20,18 +20,18 @@ The "NFT Takeover" challenge involves gaining access to a digital wallet contain
 1. **Navigating to the NFT Page**:
    - Explored the application's JavaScript files to find any references to "NFT," leading to the discovery of the `/juicy-nft` path.
 
-   ![path](../assets/difficulty2/nft_takeover_1.png)
+   <img src="../assets/difficulty2/nft_takeover_1.png" alt="path" width="700px">
 
    - Accessed `http://127.0.0.1:3000/#/juicy-nft`, which prompted for a private key to access the NFT wallet.
 
-   ![nft page](../assets/difficulty2/nft_takeover_2.png)
+   <img src="../assets/difficulty2/nft_takeover_2.png" alt="nft page" width="700px">
 
 ### Utilizing Exposed Sensitive Information
 
 2. **Extracting the Seed Phrase from User Feedback**:
    - Found a user feedback comment that inadvertently shared a seed phrase: "purpose betray marriage blame crunch monitor spin slide donate sport lift clutch."
 
-   ![admin panel](../assets/difficulty2/nft_takeover_3.png)
+   <img src="../assets/difficulty2/nft_takeover_3.png" alt="admin panel" width="700px">
 
    - Recognized that this seed phrase likely relates to the private key required by the `/juicy-nft` page.
 

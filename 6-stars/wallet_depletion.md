@@ -23,17 +23,17 @@ This challenge entails draining or manipulating the balance of a simulated crypt
 
 I start by visiting the wallet page on the Juice Shop site :
 
-![page wallet](../assets/difficulty6/wallet_depletion_1.png)
+<img src="../assets/difficulty6/wallet_depletion_1.png" alt="page wallet" width="700px">
 
 I interacted with the interface to deposit a small amount of ETH (0.001 ETH) to test the functionality :
 
-![filled wallet](../assets/difficulty6/wallet_depletion_2.png)
+<img src="../assets/difficulty6/wallet_depletion_2.png" alt="filled wallet" width="700px">
 
 ### Step 2: Intercepting the Withdrawal Request
 
 Using Burp Suite, I intercepted the network request made when attempting to withdraw ETH from the wallet. The request carried transaction data encoded in a hexadecimal format, indicating interaction with blockchain technologies, likely an Ethereum smart contract call.
 
-![transfer request](../assets/difficulty6/wallet_depletion_3.png)
+<img src="../assets/difficulty6/wallet_depletion_3.png" alt="transfer request" width="700px">
 
 ### Key Observations from the Request:
 
@@ -63,7 +63,7 @@ Here is the payload used :
 
 Attempting to withdraw 0.1 ETH resulted in an error likely due to insufficient funds or protections against unauthorized withdrawal amounts. The specific error highlighted the transaction could fail due to an "UNPREDICTABLE_GAS_LIMIT."
 
-![transfer request](../assets/difficulty6/wallet_depletion_4.png)
+<img src="../assets/difficulty6/wallet_depletion_4.png" alt="transfer request" width="700px">
 
 ## Solution Explanation
 

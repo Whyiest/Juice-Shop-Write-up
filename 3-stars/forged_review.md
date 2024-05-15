@@ -19,7 +19,7 @@ This challenge involves manipulating the review submission process in a web appl
 1. **Submit a Review**: Started by submitting a generic review through the web application's interface.
 2. **Intercept the Request**: Used Burp Suite to intercept the outgoing HTTP request made when submitting the review.
 
-![dummy review](../assets/difficulty3/forged_review_1.png)
+<img src="../assets/difficulty3/forged_review_1.png" alt="dummy review" width="700px">
 
 3. **Analyze Request Parameters**: Noted that the request payload includes an "author" parameter, which appears to manually set the author of the review, suggesting that the server does not validate whether the user submitting the review is the actual author indicated in the request.
 
@@ -27,30 +27,30 @@ This challenge involves manipulating the review submission process in a web appl
 
 1. **Modify the Author Parameter**: Changed the "author" parameter in the HTTP request to another user's name or identifier.
 
-![modified request](../assets/difficulty3/forged_review_2.png)
+<img src="../assets/difficulty3/forged_review_2.png" alt="modified request" width="700px">
 
 2. **Resend the Request**: Sent the modified request back to the server using Burp Suite.
 3. **Verify Review Submission**: Checked the application to see if the review was posted under the name of the altered "author", confirming the vulnerability.
 
-![result](../assets/difficulty3/forged_review_3.png)
+<img src="../assets/difficulty3/forged_review_3.png" alt="result" width="700px">
 
 ### Additional Manipulation
 
 - **Edit Existing Reviews**: Discovered that reviews could also be edited by intercepting and manipulating edit requests in a similar fashion.
 
-![edition request](../assets/difficulty3/forged_review_5.png)
+<img src="../assets/difficulty3/forged_review_5.png" alt="edition request" width="700px">
 
 - **Identify Review IDs**: Found that review IDs could be collected from other functionalities like the "like" feature, where intercepting the request reveals the ID of reviewed messages.
 
-![get id from like](../assets/difficulty3/forged_review_6.png)
+<img src="../assets/difficulty3/forged_review_6.png" alt="get id from like" width="700px">
 
 - **Manipulate Review by ID**: Used the obtained IDs to edit reviews by other users, injecting the ID into the edit request to change content of reviews not originally authored by the attacker.
 
-![modified request](../assets/difficulty3/forged_review_7.png)
+<img src="../assets/difficulty3/forged_review_7.png" alt="modified request" width="700px">
 
 - **Result**: 
 
-![result final](../assets/difficulty3/forged_review_8.png)
+<img src="../assets/difficulty3/forged_review_8.png" alt="result final" width="700px">
 
 
 ## Solution Explanation

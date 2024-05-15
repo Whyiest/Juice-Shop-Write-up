@@ -21,13 +21,13 @@ Began by examining the `main.js` file, searching for any references that might p
 
 I found the section related to the content of the page, but not the path himself :
 
-![section coin](../assets/difficulty5/blockchain_hype_3.png)
+<img src="../assets/difficulty5/blockchain_hype_3.png" alt="section coin" width="700px">
 
 ### Step 2: Identifying Key Sections
 
 So, I go back to the section where all paths are defined. Following the hints of the challenges, I identified sections within `main.js` that included unusual obfuscation patterns or encrypted strings, suggesting possible links to hidden features or pathways. It's the only moment in paths definition where a path seems to no be in clear text, so I think that there is high chance to find something behind this obfuscation.
 
-![code obfuscated](../assets/difficulty5/blockchain_hype_4.png)
+<img src="../assets/difficulty5/blockchain_hype_4.png" alt="code obfuscated" width="700px">
 
 ### Step 3: De-obfuscation
 

@@ -40,7 +40,7 @@ My idea was to retrieve a pattern to reproduce them, or decode them to understan
 
 Performed an entropy analysis using CyberChef to determine the randomness of the coupon strings. The results indicated a pattern that suggested the coupons were not highly randomized and were likely generated using a consistent encoding algorithm.
 
-![entropy](../assets/difficulty6/forged_coupon_2.png)
+<img src="../assets/difficulty6/forged_coupon_2.png" alt="entropy" width="700px">
 
 ### Step 3: Identifying the Encoding Library
 
@@ -48,13 +48,13 @@ So, since I hypothesis that there is an algorithm that create theses coupons, I 
 
 Knowing that, I started to review the `package.json` file, previously obtained from the FTP server, for any libraries related to cryptography or encoding. After analyzing one by one every packages, I identified the Z85 encoding library as a potential candidate due to its description on npm :
 
-![npm package z85](../assets/difficulty6/forged_coupon_4.png)
+<img src="../assets/difficulty6/forged_coupon_4.png" alt="npm package z85" width="700px">
 
 ### Step 4: Decoding Coupons
 
 Used the Cryptii online tool to decode the coupons with the Z85 algorithm, which revealed a consistent format `{3 letters of MONTH}{2 digits of YEAR}-{DISCOUNT PERCENTAGE}`.
 
-![decrypting coupons](../assets/difficulty6/forged_coupon_5.png)
+<img src="../assets/difficulty6/forged_coupon_5.png" alt="decrypting coupons" width="700px">
 
 ### Step 5: Generating Forged Coupon
 

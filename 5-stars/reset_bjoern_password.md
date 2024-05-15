@@ -21,7 +21,7 @@ This challenge entails resetting the password for Bjoern Kimminich's account on 
 
    - Here is the security question : 
 
-   ![security question](../assets/difficulty5/reset_bjoern_password_1.png)
+   <img src="../assets/difficulty5/reset_bjoern_password_1.png" alt="security question" width="700px">
 
    - Examine Bjoern Kimminich’s social media profiles and personal website to collect any publicly available information about his locations and related postal codes.
 
@@ -31,7 +31,7 @@ This challenge entails resetting the password for Bjoern Kimminich's account on 
 
    - Note significant life events, places of education, and employment which might be linked to specific postal codes :
 
-   ![facebook](../assets/difficulty5/reset_bjoern_password_2.png)
+   <img src="../assets/difficulty5/reset_bjoern_password_2.png" alt="facebook" width="700px">
 
 
    - Here is postals codes recovered : 

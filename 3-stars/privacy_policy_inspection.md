@@ -22,7 +22,7 @@ The "Privacy Policy Inspection" challenge requires to demonstrate their familiar
    - The crawler (for example BurpSuite) will find this URL : `http://127.0.0.1:3000/#/privacy-security/privacy-policy` 
    - Use it to access the Privacy Policy of the application.
 
-    ![privacy policy](../assets/difficulty3/privacy_policy_inspection_1.png)
+    <img src="../assets/difficulty3/privacy_policy_inspection_1.png" alt="privacy policy" width="700px">
 
 ### Examining the Document
 
@@ -34,12 +34,12 @@ The "Privacy Policy Inspection" challenge requires to demonstrate their familiar
 3. **Identifying Hidden Triggers**:
    - During the examination, notice that hovering over certain sections or words in the policy triggers overlay pop-ups or reveals hidden messages.
 
-    ![example 1](../assets/difficulty3/privacy_policy_inspection_2.png)
-    ![example 2](../assets/difficulty3/privacy_policy_inspection_3.png)
+    <img src="../assets/difficulty3/privacy_policy_inspection_2.png" alt="example 1" width="700px">
+    <img src="../assets/difficulty3/privacy_policy_inspection_3.png" alt="example 2" width="700px">
 
    - Piece together these words or phrases to form a path or message that might indicate a hidden URL or document.
 
-    ![error page](../assets/difficulty3/privacy_policy_inspection_4.png)
+    <img src="../assets/difficulty3/privacy_policy_inspection_4.png" alt="error page" width="700px">
 
 ### Accessing Hidden Content
 

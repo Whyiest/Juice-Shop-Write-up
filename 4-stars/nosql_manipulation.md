@@ -31,7 +31,7 @@ Content-Type: application/json
 ```
 
 In Burp suite, looks like this :
-![burp suite request](../assets/difficulty4/nosql_manipulation_1.png)
+<img src="../assets/difficulty4/nosql_manipulation_1.png" alt="burp suite request" width="700px">
 
 
 ### Step 2: Crafting the NoSQL Injection Payload

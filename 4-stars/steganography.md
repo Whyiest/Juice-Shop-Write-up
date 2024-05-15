@@ -33,7 +33,7 @@ The process to solve the Steganography challenge involved multiple steps focusin
    - Employed OpenStego specifically on the PNG image to check for embedded data. OpenStego is known for its effectiveness with PNG files due to their lossless nature.
    - Successfully extracted hidden data from the fifth image.
 
-   ![open stego](../assets/difficulty4/steganography.png)
+   <img src="../assets/difficulty4/steganography.png" alt="open stego" width="700px">
 
 5. **Identify the Character**:
    - Used Google Lens to identify the extracted image, which was found to be Pickle Rick from the animated show "Rick and Morty".

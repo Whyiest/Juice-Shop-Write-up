@@ -19,13 +19,13 @@ This challenge involves exploiting a Server-Side Request Forgery (SSRF) vulnerab
 
 Knowing the challenge involves SSRF, I looked for places within the Juice Shop application where external URLs are fetched by the server. The user profile section, where users can set their profile image via a URL, seemed a likely candidate.
 
-![profile image](../assets/difficulty6/ssrf_3.png)
+<img src="../assets/difficulty6/ssrf_3.png" alt="profile image" width="700px">
 
 ### Step 2: Testing the Theory
 
 Using Burp Suite, I intercepted the request made when changing the profile image and observed that it accepts an external URL for the image. This behavior suggests that the server fetches the image from the URL provided by the user, which is a classic setup for SSRF vulnerabilities.
 
-![url](../assets/difficulty6/ssrf_4.png)
+<img src="../assets/difficulty6/ssrf_4.png" alt="url" width="700px">
 
 In fact, using Burp I found that my URL was directly injected in imageURL parameter of the request, which means that URL will be fetched server-side.
 
@@ -33,11 +33,11 @@ In fact, using Burp I found that my URL was directly injected in imageURL parame
 
 Here is the hints of the challenges : 
 
-![hints](../assets/difficulty6/ssrf_1.png)
+<img src="../assets/difficulty6/ssrf_1.png" alt="hints" width="700px">
 
 Following hints provided in the challenge description, I explored URLs contained in malware files hosted under the `/ftp/quarantine/` directory on the server. 
 
-![ftp quarantine](../assets/difficulty6/ssrf_2.png)
+<img src="../assets/difficulty6/ssrf_2.png" alt="ftp quarantine" width="700px">
 
 Each of these URLs was a potential trigger for the SSRF.
 

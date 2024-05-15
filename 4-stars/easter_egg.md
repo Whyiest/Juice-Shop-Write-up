@@ -21,7 +21,7 @@ The challenge involved discovering a hidden Easter egg within the application, r
 1. **FTP Directory Access**:
    - Navigate to `127.0.0.1:3000/ftp` using a web browser to access the server’s FTP directory, which revealed various files including `eastere.gg`.
 
-   ![ftp files](../assets/difficulty4/easter_egg_1.png)
+   <img src="../assets/difficulty4/easter_egg_1.png" alt="ftp files" width="700px">
 
 ### Step 2: Circumventing File Access Restrictions
 
@@ -29,7 +29,7 @@ The challenge involved discovering a hidden Easter egg within the application, r
    - Identify that only `.pdf` or `.md` files are downloadable directly through the interface.
    - Attempt to access the `eastere.gg` file by manipulating the URL to include a null byte followed by an allowed file extension. Example: Accessing `eastere.gg%2500.pdf` tricks the system into bypassing the extension check, allowing the download of a non-.pdf/.md file.
 
-   ![extension trick](../assets/difficulty4/easter_egg_2.png)
+   <img src="../assets/difficulty4/easter_egg_2.png" alt="extension trick" width="700px">
 
 ### Step 3: Accessing and Decoding the Easter Egg
 
@@ -37,7 +37,7 @@ The challenge involved discovering a hidden Easter egg within the application, r
    - Successfully download the `eastere.gg` file using the manipulated URL.
    - Open the file to discover it contains text suggesting another layer to the Easter egg challenge, providing a Base64 encoded string.
 
-   ![opened file](../assets/difficulty4/easter_egg_3.png)
+   <img src="../assets/difficulty4/easter_egg_3.png" alt="opened file" width="700px">
 
 ### Step 4: Decoding the Hidden Message
 

@@ -25,7 +25,7 @@ The goal of this challenge was to exploit an SQL Injection to access a hidden Ch
 2. **Exploiting the Search Feature**:
    - Initiated an SQL injection with the query `test')) UNION SELECT * FROM PRODUCTS WHERE deletedAt IS NOT NULL--`.
 
-   ![sql injection](../assets/difficulty4/christmas_special_1.png)
+   <img src="../assets/difficulty4/christmas_special_1.png" alt="sql injection" width="700px">
 
    - This was based on the hypothesis that hidden or special products like the Christmas offer might be flagged as deleted in the system.
 
@@ -40,11 +40,11 @@ The goal of this challenge was to exploit an SQL Injection to access a hidden Ch
 4. **Manipulating the Cart**:
    - Add a product in shopping cart and capture request using Burp :
 
-   ![dummy product adding](../assets/difficulty4/christmas_special_2.png)
+   <img src="../assets/difficulty4/christmas_special_2.png" alt="dummy product adding" width="700px">
 
    - Then I added to the shopping cart the special product by setting the `ProductId` to `10` in the POST request:
 
-   ![basket](../assets/difficulty4/christmas_special_3.png)
+   <img src="../assets/difficulty4/christmas_special_3.png" alt="basket" width="700px">
 
 ## Solution Explanation
 

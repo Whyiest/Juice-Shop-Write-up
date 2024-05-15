@@ -19,7 +19,7 @@ This challenge involves exploiting insufficient access controls to post feedback
 
 1. **Submit Feedback**: Initially, submit feedback normally through the application's interface to understand how the feedback submission process works.
 
-![normal feedback](../assets/difficulty3/forged_feedback_1.png)
+<img src="../assets/difficulty3/forged_feedback_1.png" alt="normal feedback" width="700px">
 
 2. **Intercept the Request**: Using Burp Suite, capture the HTTP request sent when feedback is submitted. Analyze the request to understand its structure and the parameters it includes.
 
@@ -30,7 +30,7 @@ This challenge involves exploiting insufficient access controls to post feedback
 2. **Manipulate User Identifier**:
    - Modify the "user_id" parameter in the intercepted request to the ID of another user, preferably a user with higher privileges like an admin, to test if the application enforces proper authorization checks.
 
-   ![modified request](../assets/difficulty3/forged_feedback_2.png)
+   <img src="../assets/difficulty3/forged_feedback_2.png" alt="modified request" width="700px">
    
    - Resend the modified request to see if the feedback gets posted under the changed user ID.
 

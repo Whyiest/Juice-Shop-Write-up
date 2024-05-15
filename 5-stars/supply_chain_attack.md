@@ -27,13 +27,13 @@ Conducted a thorough review of each package listed in `package.json`, specifical
 
 Searched for known vulnerabilities associated with each package using various security databases and vulnerability trackers.More specifically, I searched for supply chain vulnerability because it's in the tittle of this challenge.
 
-![google search](../assets/difficulty5/supply_chain_attack_2.png)
+<img src="../assets/difficulty5/supply_chain_attack_2.png" alt="google search" width="700px">
 
 ### Step 4: Discovering the Compromised Package
 
 Identified a significant vulnerability in `eslint-scope@3.7.2`, a package used in the project. The vulnerability was detailed in a security incident report on GitHub, which explained how specific versions of `eslint-scope` were compromised to steal npm tokens.
 
-![github vulnerability](../assets/difficulty5/supply_chain_attack_3.png)
+<img src="../assets/difficulty5/supply_chain_attack_3.png" alt="github vulnerability" width="700px">
 
 
 **Vulnerability Report:** [ESLint-scope Security Issue Report](https://github.com/eslint/eslint-scope/issues/39)

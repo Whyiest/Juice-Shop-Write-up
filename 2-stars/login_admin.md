@@ -24,12 +24,12 @@ Upon analyzing the login mechanism, it was noted that inserting special characte
 1. **Intercept Login Request**:
    - Using Burp Suite, the HTTP POST request sent during a normal login attempt was intercepted. This request included user credentials in the form of JSON data.
 
-   ![normal login](../assets/difficulty2/login_admin_1.png)
+   <img src="../assets/difficulty2/login_admin_1.png" alt="normal login" width="700px">
 
 2. **Modify the SQL Query**:
    - Modified the email field in the JSON payload to `admin@juice-sh.op' OR '1'='1' --`, effectively turning the SQL command into a statement that always returns true, bypassing the need for a password.
 
-    ![modified request](../assets/difficulty2/login_admin_2.png)
+    <img src="../assets/difficulty2/login_admin_2.png" alt="modified request" width="700px">
     
 3. **Execute the Injected Request**:
    - The modified request was sent to the server. Due to the injected SQL code, the condition `OR '1'='1'` always evaluates as true, allowing unauthorized access to the administrator's account.

@@ -21,11 +21,11 @@ This challenge, "Meta Geo Stalking," tests ability to utilize metadata from imag
 1. **Identifying Security Question**:
    - Attempted to reset the password for John's account, which revealed the security question: "What is your favorite place to walk?"
 
-   ![reset question](../assets/difficulty2/meta_geostaking_1.png)
+   <img src="../assets/difficulty2/meta_geostaking_1.png" alt="reset question" width="700px">
 
    - This corresponds directly to the image caption located in photo wall, hinting that the answer is related to the location shown in the photo.
 
-   ![image from photo wall](../assets/difficulty2/meta_geostaking_2.png)
+   <img src="../assets/difficulty2/meta_geostaking_2.png" alt="image from photo wall" width="700px">
 
 2. **Downloading and Analyzing the Image**:
    - Downloaded the image from `http://127.0.0.1:3000/assets/public/images/uploads/favorite-hiking-place.png`.
@@ -36,15 +36,15 @@ This challenge, "Meta Geo Stalking," tests ability to utilize metadata from imag
 3. **Using GPS Coordinates**:
    - Input the GPS coordinates into a mapping tool to get a precise location. The coordinates extracted were `36°57'31.38"N 84°20'53.58"W`.
 
-   ![gps](../assets/difficulty2/meta_geostaking_3.png)
+   <img src="../assets/difficulty2/meta_geostaking_3.png" alt="gps" width="700px">
 
    - Google Maps confirmed the location as Daniel Boone National Forest.
 
-   ![localisation zoom 3](../assets/difficulty2/meta_geostaking_4.png)
+   <img src="../assets/difficulty2/meta_geostaking_4.png" alt="localisation zoom 3" width="700px">
 
-   ![localisation zoom 2](../assets/difficulty2/meta_geostaking_5.png)
+   <img src="../assets/difficulty2/meta_geostaking_5.png" alt="localisation zoom 2" width="700px">
 
-   ![localisation zoom 1](../assets/difficulty2/meta_geostaking_6.png)
+   <img src="../assets/difficulty2/meta_geostaking_6.png" alt="localisation zoom 1" width="700px">
 
 ### Password Reset
 
@@ -52,7 +52,7 @@ This challenge, "Meta Geo Stalking," tests ability to utilize metadata from imag
    - With the location identified as Daniel Boone National Forest, this was used as the answer to the security question.
    - Successfully reset John’s password using the location information derived from the image’s metadata.
 
-   ![request to reset](../assets/difficulty2/meta_geostaking_7.png)
+   <img src="../assets/difficulty2/meta_geostaking_7.png" alt="request to reset" width="700px">
 
 ### Solution Explanation
 

@@ -23,7 +23,7 @@ The challenge hint suggests reading about npm malicious packages, focusing on ty
 
 An examination of the developers' backup file (`package.json.bak`) reveals a list of dependencies used by Juice Shop. This file is crucial for identifying potential typosquatted packages by comparing the listed package names with their legitimate counterparts. I tried to obtain a quick win by comparing all library with most common typosquatted library but I don't obtained any result using this method :
 
-![quick win failed](../assets/difficulty4/legacy_typosquatting_1.png)
+<img src="../assets/difficulty4/legacy_typosquatting_1.png" alt="quick win failed" width="700px">
 
 ### Step 3: Investigate Packages on npm
 
@@ -34,7 +34,7 @@ Each package from the backup file is checked on the npm repository. The search i
 Upon detailed scrutiny, the package `epilogue-js` on npm raises suspicion. The real and widely-used package should be `epilogue`. The `epilogue-js` package on npm is flagged with a warning:
 - It directs users to use another repository and highlights its existence solely for security awareness and training, indicating it's a demonstration of typosquatting.
 
-![typosquatted library](../assets/difficulty4/legacy_typosquatting_2.png)
+<img src="../assets/difficulty4/legacy_typosquatting_2.png" alt="typosquatted library" width="700px">
 
 ### Solution Explanation
 

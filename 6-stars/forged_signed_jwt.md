@@ -33,11 +33,11 @@ Decoded the JWT using jwt.io to understand its structure, header, payload, and s
 
 Since we want to sign our malicious JWT that we will craft later, and as suggested by the hints of this challenges, we must first obtain the key used to sign JWT. In case if you didn't have read the hints, take a minute to read it : 
 
-![hints](../assets/difficulty6/forged_signed_jwt_1.png)
+<img src="../assets/difficulty6/forged_signed_jwt_1.png" alt="hints" width="700px">
 
 Before this challenge, I started my journey on Juice-Shop by executing a GoBuster on the web application. During this discovery step, I found the URL `http://127.0.0.1:3000/encryptionkeys` which listed the JWT public key file (`jwt.pub`). So I downloaded this file to be used later in the signature forging process.
 
-![jwt file](../assets/difficulty6/forged_signed_jwt_3.png)
+<img src="../assets/difficulty6/forged_signed_jwt_3.png" alt="jwt file" width="700px">
 
 ### Step 4: Prepare Forged JWT
 
@@ -53,17 +53,17 @@ To do that, we adjusted the `alg` field in the JWT header from `RS256` to `HS256
 
 Then, we want to sign the JWT. Again I suggest you to do it manually to avoid errors. We will use the RSA public key as a secret key to generate an HMAC-SHA256 signature of the JWT.
 
-![generator](../assets/difficulty6/forged_signed_jwt_4.png)
+<img src="../assets/difficulty6/forged_signed_jwt_4.png" alt="generator" width="700px">
 
 Again, as explained before, the misuse of asymmetric keys for a symmetric HMAC process is central to the algorithm confusion attack. Finally we replace older signature by the new one : 
 
-![JWT full](../assets/difficulty6/forged_signed_jwt_5.png)
+<img src="../assets/difficulty6/forged_signed_jwt_5.png" alt="JWT full" width="700px">
 
 ### Step 6: Send Forged JWT to Server
 
 Replaced the existing JWT in a request to `/rest/user/whoami` with the newly forged JWT. The server, misinterpreting the HMAC signature as a valid RSA signature, granted access as `rsa_lord@juice-sh.op`.
 
-![result](../assets/difficulty6/forged_signed_jwt_7.png)
+<img src="../assets/difficulty6/forged_signed_jwt_7.png" alt="result" width="700px">
 
 ## Solution Explanation
 

@@ -28,7 +28,7 @@ The `express-jwt` library, used for JWT authentication, was found to have signif
 - **Vulnerability:** Authorization Bypass
 - **Details:** The configuration was not enforcing the `alg` algorithms entry, allowing bypass if `algorithms` was not explicitly set in conjunction with `jwks-rsa`.
 
-![vulnerability](../assets/difficulty4/vulnerable_library_1.png)
+<img src="../assets/difficulty4/vulnerable_library_1.png" alt="vulnerability" width="700px">
 
 ### Step 3: Reporting the Vulnerability
 

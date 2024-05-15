@@ -29,12 +29,12 @@ This challenge involves exploiting the language selection feature to access a hi
 
 - Here is the network request : 
 
-![request when changing languages](../assets/difficulty5/extra_language_1.png)
+<img src="../assets/difficulty5/extra_language_1.png" alt="request when changing languages" width="700px">
 
 ### Step 2: Exploring Available Languages
 
 - I used the official page of the project to search section related to langages development, as suggested in the hint. I find this particular section into the companion guide : 
-![screenshot from companion guide that give us the link of Crowdin project](../assets/difficulty5/extra_language_2.png)
+<img src="../assets/difficulty5/extra_language_2.png" alt="screenshot from companion guide that give us the link of Crowdin project" width="700px">
 
 - We can see that everyone is able to contribute via a Crowdin project.
 
@@ -46,7 +46,7 @@ With a hypothesis that there might be easter eggs or hidden languages, research 
 
 I made the discovery of "Klingon," a fictional language from the "Star Trek" universe, coded as `tlh_AA`.
 
-![fictional language](../assets/difficulty5/extra_language_3.png)
+<img src="../assets/difficulty5/extra_language_3.png" alt="fictional language" width="700px">
 
 ### Step 5: Successful Injection of the Language Code
 

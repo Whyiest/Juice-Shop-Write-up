@@ -25,13 +25,13 @@ Upon examining the registration form, it was noted that users are required to en
    - Entered all required information including the email, password, and security question.
    - Intentionally provided different inputs for the "Password" and "Re-type your password" fields.
 
-![incorrect](../assets/difficulty1/repetitive_registration_1.png)
+<img src="../assets/difficulty1/repetitive_registration_1.png" alt="incorrect" width="700px">
 
 2. **Modify Form Behavior**:
    - Used the browser’s developer tools to inspect the 'Sign Up' button, which was disabled due to the mismatch in passwords.
    - Manually removed the `disabled` attribute from the button in the HTML code via the developer tools.
 
-![code](../assets/difficulty1/repetitive_registration_2.png)
+<img src="../assets/difficulty1/repetitive_registration_2.png" alt="code" width="700px">
 
 3. **Submit the Form**:
    - After enabling the button, submitted the form. Despite the passwords not matching, the registration succeeded, indicating a lack of server-side validation for this condition.

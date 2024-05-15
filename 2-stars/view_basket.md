@@ -24,21 +24,21 @@ The web application allows users to view the contents of their shopping basket. 
    - Using Burp Suite, the HTTP request to retrieve the user's own basket was intercepted.
    - The request URL is: `http://127.0.0.1:3000/rest/basket/1`, where `1` is the basket ID for the current user.
 
-![request](../assets/difficulty2/view_basket_1.png)
+<img src="../assets/difficulty2/view_basket_1.png" alt="request" width="700px">
 
    - We obtain our basket : 
 
-![basket 1](../assets/difficulty2/view_basket_2.png)
+<img src="../assets/difficulty2/view_basket_2.png" alt="basket 1" width="700px">
 
 2. **Modify the Basket ID**:
    - Altered the basket ID in the intercepted request from `1` to `2`, attempting to access another user's basket details.
 
-![replaced request](../assets/difficulty2/view_basket_3.png)
+<img src="../assets/difficulty2/view_basket_3.png" alt="replaced request" width="700px">
 
 3. **View Results**:
    - The modified request was forwarded, and the response contained the details of another user's basket, confirming the presence of broken access control.
 
-![new basket](../assets/difficulty2/view_basket_4.png)
+<img src="../assets/difficulty2/view_basket_4.png" alt="new basket" width="700px">
 
 ### Solution Explanation
 
