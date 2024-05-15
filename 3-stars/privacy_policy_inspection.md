@@ -36,7 +36,7 @@ The "Privacy Policy Inspection" challenge requires to demonstrate their familiar
 
    <img src="../assets/difficulty3/privacy_policy_inspection_2.png" alt="example 1" width="500px">
 
-    <img src="../assets/difficulty3/privacy_policy_inspection_3.png" alt="example 2" width="500px">
+   <img src="../assets/difficulty3/privacy_policy_inspection_3.png" alt="example 2" width="500px">
 
    - Piece together these words or phrases to form a path or message that might indicate a hidden URL or document.
 
