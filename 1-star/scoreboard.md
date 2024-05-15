@@ -23,7 +23,7 @@ To solve the "Score Board" challenge, the approach involved inspecting the JavaS
 2. **Review JavaScript Files**: Navigated to the "Sources" tab in the developer tools and reviewed the files loaded by the application.
 3. **Analyze main.js**: Focused on the `main.js` file, as it often contains route definitions and application logic.
 4. **Search for Hidden Routes**: Searched within the `main.js` file for mentions of various application routes. It was identified that the file explicitly listed several path definitions including the hidden "Score Board."
-![scoreboard](../assets/difficulty1/scoreboard.png)
+![scoreboard](../assets/difficulty1/scoreboard_1.png)
 5. **Access the Score Board**: Used the route found in the `main.js` file to directly access the Score Board page by entering the path in the browser's address bar.
 
 ## Solution Explanation

@@ -29,7 +29,7 @@ To complete the Exposed Metrics challenge, follow these steps:
    - Detailed runtime and system health data.
    - Information about file uploads, including types and success/failure counts.
 
-![metrics](../assets/difficulty1/exposed_metrics.png)
+![metrics](../assets/difficulty1/exposed_metrics_1.png)
 
 ## Solution Explanation
 

@@ -20,7 +20,7 @@ The steps taken to solve the Privacy Policy challenge were straightforward:
 
 1. **Locate the Privacy Policy**: Navigated to the section of the website where legal or privacy-related documents are likely to be found. This page is likely the page about : 127.0.0.1:3000/#/about 
 2. **Examine the Content**: Opened and thoroughly read the Privacy Policy, which in this case was presented as a Markdown file (`legal.md`).
-![policy](../assets/difficulty1/policy.png)
+![policy](../assets/difficulty1/policy_1.png)
 
 ## Solution Explanation
 
