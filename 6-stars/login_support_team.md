@@ -6,7 +6,7 @@
 **Category:** Security Misconfiguration  
 **Difficulty:** ⭐⭐⭐⭐⭐⭐ (6/6)
 
-This challenge tasks the participant with accessing the account of the support team using their original credentials, without resorting to SQL injection or other bypass methods.
+This challenge ask us to accessing the account of the support team using their original credentials, without resorting to SQL injection or other bypass methods.
 
 ## Tools Used
 
