@@ -47,7 +47,7 @@ Attempted to exploit this by specifying external images via the `testDecal` para
 
 Constructed the payload to use a relative path escape sequence combined with a redirection to an external image:
 ```plaintext
-http://127.0.0.1:3000/#/deluxe-membership?testDecal=.../.../../../redirect?to=https://dummyimage.com/600x400/000/fff&x=https://github.com/bkimminich/juice-shop
+http://127.0.0.1:3000/#/deluxe-membership?testDecal=../../../../redirect?to=https://dummyimage.com/600x400/000/fff&x=https://github.com/bkimminich/juice-shop
 ```
 
 1. This payload uses directory traversal (`../../../../`) to reach the server root and then utilizes the internal redirect functionality to point to an external dummy image.
