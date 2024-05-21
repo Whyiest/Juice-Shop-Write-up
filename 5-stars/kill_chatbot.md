@@ -39,7 +39,6 @@ The investigation led to the discovery of the bot's GitHub repository (https://g
 Key discovery was that the chatbot used `vm2`'s `VM` module for executing dynamic scripts. This module, while designed to provide sandboxed execution of JavaScript code, could be prone to certain types of injection if not properly handled.
 
 ```javascript
-// Hypothetical vulnerable code snippet from chatbot
 const { VM } = require('vm2');
 this.factory.run = function(script) {
     let vm = new VM();
