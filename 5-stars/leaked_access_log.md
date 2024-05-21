@@ -64,7 +64,7 @@ Decoded the URL-encoded characters and prepared the password for testing:
 
 2. ... I set up a brute-force test to match the decoded password against known user accounts.
 
-<img src="assets/difficulty5/leaked_access_log_3.png" alt="Burp suite Brute Force" width="500px">
+<img src="../assets/difficulty5/leaked_access_log_3.png" alt="Burp suite Brute Force" width="500px">
 
 ### Step 7: Successful Login Attempt
 
