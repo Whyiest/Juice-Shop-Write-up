@@ -28,15 +28,23 @@ The JavaScript code managing the chatbot included functions that controlled its 
 
 <img src="../assets/difficulty5/kill_chatbot_3.png" alt="js code" width="500px">
 
-### Step 3: Investigating External Dependencies
-
-The investigation led to the discovery of the bot's GitHub repository (https://github.com/juice-shop/juicy-chat-bot), which provided crucial insights into its dependencies and operational logic. 
+We found some pre-answered questions (irrevelant for this challenge, but might be useful later) : 
 
 <img src="../assets/difficulty5/kill_chatbot_6.png" alt="hint to external" width="500px">
 
-### Step 4: Exploiting Script Evaluation
+### Step 3: Exploiting Script Evaluation
 
 Key discovery was that the chatbot used `vm2`'s `VM` module for executing dynamic scripts. This module, while designed to provide sandboxed execution of JavaScript code, could be prone to certain types of injection if not properly handled.
+
+We find a possible entry point here : 
+
+```javascript
+addUser (token, name) {
+    this.factory.run(`users.addUser("${token}", "${name}")`)
+  }
+```
+
+This code really looks like an equivalent to "exec" function. Even if execution code does not appear in the repositority, I found on internet that in general it can be something like this : 
 
 ```javascript
 const { VM } = require('vm2');
@@ -46,9 +54,9 @@ this.factory.run = function(script) {
 };
 ```
 
-### Step 5: Code Injection
+### Step 4: Code Injection
 
-The chatbot prompted users for their name, which was then processed by the `factory.run()` method, executing a script that included the user-provided name. This interaction provided an opportunity for injection if user input was incorporated into the script unsanitized. We can guess that this function may work like an "exec" call in JS, meaning that we can try all related exploit.
+The chatbot prompted users for their name, which was then processed by the `factory.run()` method, executing a script that included the user-provided name. This interaction provided an opportunity for injection if user input was incorporated into the script unsanitized. As mentionned before, we can guess that this function may work like an "exec" call in JS, meaning that we can try all related exploit.
 
 ### Successful Payload Execution
 
