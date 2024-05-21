@@ -2,13 +2,11 @@
 
 ## Challenge Overview
 
-**Title:** Five-Star Feedback
-
-**Category:** Broken Access Control
-
+**Title:** Five-Star Feedback\
+**Category:** Broken Access Control\
 **Difficulty:** ⭐⭐ (2/6)
 
-The "Five-Star Feedback" challenge requires participants to manipulate the review system of a web application by deleting all five-star reviews. 
+The "Five-Star Feedback" challenge requires to manipulate the review system of a web application by deleting all five-star reviews. 
 
 ## Tools Used
 
@@ -30,7 +28,7 @@ The "Five-Star Feedback" challenge requires participants to manipulate the revie
 3. **Identify Five-Star Reviews**:
    - Reviews are typically displayed with associated star ratings. Identified all entries with a five-star rating ready for deletion.
    
-![admin panel view](../assets/difficulty2/five_star_feedback.png)
+   <img src="../assets/difficulty2/five_star_feedback_1.png" alt="admin panel view" width="500px">
 
 
 ### Solution Explanation

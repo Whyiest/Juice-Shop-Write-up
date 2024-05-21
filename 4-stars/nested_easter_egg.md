@@ -6,7 +6,7 @@
 **Category:** Cryptographic Issues  
 **Difficulty:** ⭐⭐⭐⭐ (4/6)
 
-This challenge tasked participants with decrypting a hidden message located within another Easter egg, emphasizing advanced cryptographic analysis to uncover the real Easter egg within the application.
+This challenge ask us to decrypt a hidden message located within another Easter egg, emphasizing advanced cryptographic analysis to uncover the real Easter egg within the application.
 
 ## Tools Used
 
@@ -33,7 +33,7 @@ This challenge tasked participants with decrypting a hidden message located with
 3. **Finding the Nested Easter Egg**:
    - Use the decrypted path to navigate to `127.0.0.1:3000/the/devs/are/so/funny/they/hid/an/easter/egg/within/the/easter/egg` in a web browser.
 
-   ![nested easter egg](../assets/difficulty4/nested_easter_egg_1.png)
+   <img src="../assets/difficulty4/nested_easter_egg_1.png" alt="nested easter egg" width="500px">
 
    - Successfully access the true nested Easter egg, fulfilling the challenge’s objective.
 

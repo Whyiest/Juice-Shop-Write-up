@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Outdated Allowlist
-
-**Category:** Unvalidated Redirects
-
+**Title:** Outdated Allowlist\
+**Category:** Unvalidated Redirects\
 **Difficulty:** ⭐ (1/6)
 
 This challenge, named "Outdated Allowlist," involves exploiting unvalidated redirects and the use of an outdated list of allowed addresses in a web application's redirection mechanism. The task is to manipulate the URL to redirect to an unapproved or unintended cryptocurrency address by leveraging the weaknesses in the allowlist.
@@ -21,7 +19,7 @@ This challenge, named "Outdated Allowlist," involves exploiting unvalidated redi
 
 Upon interacting with the challenge, it's observed that the web application provides QR codes for cryptocurrency transactions. The JavaScript code managing these QR codes, found within the `main.js` file, reveals that specific cryptocurrency addresses are hard-coded, and there is a redirect function that points to these addresses based on the user's selection.
 
-![allow list](../assets/difficulty1/outdated_allowlist_1.png)
+<img src="../assets/difficulty1/outdated_allowlist_1.png" alt="allow list" width="500px">
 
 ```javascript
 showBitcoinQrCode() {

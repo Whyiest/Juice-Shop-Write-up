@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Weird Crypto
-
-**Category:** Cryptographic Issues
-
+**Title:** Weird Crypto\
+**Category:** Cryptographic Issues\
 **Difficulty:** ⭐⭐ (2/6)
 
 This challenge, "Weird Crypto," tests ability to identify and report the use of deprecated cryptographic methods within the application. Specifically, it focuses on the insecure implementation of password hashing.
@@ -23,7 +21,7 @@ This challenge, "Weird Crypto," tests ability to identify and report the use of 
    - Extracted the JWT (JSON Web Token) from the browser's cookie storage.
    - Noticed that the JWT payload is encoded in Base64. Used a Base64 decoder to reveal the contents. 
 
-   ![base64 decode](../assets/difficulty2/weird_crypto_1.png)
+   <img src="../assets/difficulty2/weird_crypto_1.png" alt="base64 decode" width="500px">
 
    Note : a more simple approach maybe a simple copy paste in jwt.io
 

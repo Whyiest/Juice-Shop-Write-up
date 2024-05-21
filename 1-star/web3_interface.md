@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Web3 Sandbox
-
-**Category:** Broken Access Control
-
+**Title:** Web3 Sandbox\
+**Category:** Broken Access Control\
 **Difficulty:** ⭐ (1/6)
 
 This challenge requires discovering an accidentally deployed Web3 code sandbox that allows on-the-fly writing and testing of smart contracts. It explores the concept of broken access controls within web applications, particularly in environments involving Web3 technologies.
@@ -24,7 +22,7 @@ The process to complete the Web3 Sandbox challenge was relatively straightforwar
 
 3. **Accessing the Sandbox**: Upon navigating to the correct URL, found a fully functional Web3 code sandbox environment. This sandbox included features for editing, compiling, and deploying Ethereum smart contracts directly from the browser.
 
-![interface](../assets/difficulty1/web3_interface.png)
+<img src="../assets/difficulty1/web3_interface_1.png" alt="interface" width="500px">
 
 
 ## Solution Explanation

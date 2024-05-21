@@ -1,4 +1,3 @@
-
 # Juice-Shop Write-up: Cross-Site Imaging
 
 ## Challenge Overview
@@ -20,19 +19,20 @@ The objective of this challenge is to manipulate the source URL for images used 
 
 Accessed the Deluxe Membership page at `http://127.0.0.1:3000/#/deluxe-membership` and observed that it displayed several images of deluxe boxes which are styled with various decals.
 
-![Deluxe Membership Boxes](../assets/difficulty5/cross_site_imaging_1.png)
+<img src="../assets/difficulty5/cross_site_imaging_1.png" alt="Deluxe Membership Boxes" width="500px">
 
 
 ### Step 2: Identifying Image Source Manipulation
 
 Inspected the source code of the page to understand how images are loaded and displayed. Discovered that images are dynamically loaded based on the `logoSrc` attribute, which can be manipulated through URL parameters.
 
-![reference of all images](../assets/difficulty5/cross_site_imaging_5.png)
+<img src="../assets/difficulty5/cross_site_imaging_5.png" alt="reference of all images" width="500px">
 
 We can find the default source in the main.js also : 
 
-![sources of main image](../assets/difficulty5/cross_site_imaging_6.png)
-![sources of stickers images](../assets/difficulty5/cross_site_imaging_7.png)
+<img src="../assets/difficulty5/cross_site_imaging_6.png" alt="sources of main image" width="500px">
+
+<img src="../assets/difficulty5/cross_site_imaging_7.png" alt="sources of stickers images" width="500px">
 
 
 ### Step 3: Code Review
@@ -57,7 +57,7 @@ http://127.0.0.1:3000/#/deluxe-membership?testDecal=.../.../../../redirect?to=ht
 
 Submitted the URL with the crafted `testDecal` parameter, effectively displaying an external image, confirming the vulnerability in handling the image source path.
 
-![test of changing sources of stickers images](../assets/difficulty5/cross_site_imaging_8.png)
+<img src="../assets/difficulty5/cross_site_imaging_8.png" alt="test of changing sources of stickers images" width="500px">
 
 
 ## Solution Explanation

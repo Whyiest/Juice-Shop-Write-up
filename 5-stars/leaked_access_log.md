@@ -20,7 +20,7 @@ This challenge revolves around locating a leaked access log that contains sensit
 
 Based on the challenge hint, we suspected that a developer might have posted sensitive logs on a public platform like Stack Overflow or Pastebin :
 
-![Challenge Hint](../assets/difficulty5/leaked_access_log_5.png)
+<img src="../assets/difficulty5/leaked_access_log_5.png" alt="Challenge Hint" width="500px">
 
 
 ### Step 2: Google Dorking
@@ -36,14 +36,14 @@ This query aimed to find any Stack Overflow posts that referenced Pastebin links
 
 Located a relevant Stack Overflow discussion where a developer asked about reducing the verbosity of Express.js/Morgan logs, referring to a Pastebin link:
 
-![Google Dork pastebin](../assets/difficulty5/leaked_access_log_1.png)
+<img src="../assets/difficulty5/leaked_access_log_1.png" alt="Google Dork pastebin" width="500px">
 
 
 ### Step 4: Examining the Pastebin Content
 
 Accessed the provided Pastebin link from the Stack Overflow post, which contained a series of access logs. Among the logs, there was an entry detailing a password change attempt by a user, showcasing a discrepancy in the confirmation password field, hinting at potential reuse of the old password.
 
-![changing password log](../assets/difficulty5/leaked_access_log_2.png)
+<img src="../assets/difficulty5/leaked_access_log_2.png" alt="changing password log" width="500px">
 
 ### Step 5: Decoding and Testing the Password
 
@@ -60,11 +60,11 @@ Decoded the URL-encoded characters and prepared the password for testing:
 
 1. Using the user emails collected from a previous administrative panel challenge...
 
-![wordllist](../assets/difficulty5/leaked_access_log_4.png)
+<img src="../assets/difficulty5/leaked_access_log_4.png" alt="wordllist" width="500px">
 
 2. ... I set up a brute-force test to match the decoded password against known user accounts.
 
-![Burp suite Brute Force](assets/difficulty5/leaked_access_log_3.png)
+<img src="assets/difficulty5/leaked_access_log_3.png" alt="Burp suite Brute Force" width="500px">
 
 ### Step 7: Successful Login Attempt
 

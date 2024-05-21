@@ -5,6 +5,8 @@
 # Author: r3nt0n
 # Version: 1.0 (25/11/2022)
 
+# Note from write up author: I didn't have find a way to use this script, but feel free to use it if you want to test it. 
+
 version="1.1"
 /bin/echo -e "keepass4brute $version by r3nt0n"
 /bin/echo -e "https://github.com/r3nt0n/keepass4brute\n"

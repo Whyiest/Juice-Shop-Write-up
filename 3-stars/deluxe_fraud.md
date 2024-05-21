@@ -1,4 +1,4 @@
-# Juice-Shop: Deluxe Fraud
+# Juice-Shop Write-up: Deluxe Fraud
 
 ## Challenge Overview
 
@@ -8,7 +8,7 @@
 
 **Difficulty:** ⭐⭐⭐ (3/6)
 
-The "Deluxe Fraud" challenge involves manipulating the web application to obtain a Deluxe Membership without proper payment. This challenge tests participants' skills in identifying and exploiting vulnerabilities related to payment and authorization mechanisms.
+The "Deluxe Fraud" challenge involves manipulating the web application to obtain a Deluxe Membership without proper payment. This challenge tests skills in identifying and exploiting vulnerabilities related to payment and authorization mechanisms.
 
 ## Tools Used
 
@@ -22,7 +22,7 @@ The "Deluxe Fraud" challenge involves manipulating the web application to obtain
 1. **Navigating to Deluxe Membership Page**:
    - Accessed the Deluxe Membership page at `http://127.0.0.1:3000/#/deluxe-membership` and was presented with an error message stating the user is not eligible for the membership.
 
-![error message](../assets/difficulty3/deluxe_fraud_1.png)
+   <img src="../assets/difficulty3/deluxe_fraud_1.png" alt="error message" width="500px">
 
 
 ### Analyzing the Membership Eligibility Request

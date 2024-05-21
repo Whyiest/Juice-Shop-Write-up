@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Exposed Metrics
-
-**Category:** Sensitive Data Exposure
-
+**Title:** Exposed Metrics\
+**Category:** Sensitive Data Exposure\
 **Difficulty:** ⭐ (1/6)
 
 The challenge involves discovering an exposed metrics endpoint in a web application. 
@@ -29,7 +27,7 @@ To complete the Exposed Metrics challenge, follow these steps:
    - Detailed runtime and system health data.
    - Information about file uploads, including types and success/failure counts.
 
-![metrics](../assets/difficulty1/exposed_metrics.png)
+   <img src="../assets/difficulty1/exposed_metrics_1.png" alt="metrics" width="500px">
 
 ## Solution Explanation
 

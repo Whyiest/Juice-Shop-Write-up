@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Retrieve Blueprint
-
-**Category:** Forensic/Recon
-
+**Title:** Retrieve Blueprint\
+**Category:** Forensic/Recon\
 **Difficulty:** ⭐⭐⭐⭐⭐ (5/6)
 
 This challenge requires to locate and retrieve a 3D blueprint related to the OWASP Juice Shop project. 
@@ -31,7 +29,7 @@ This challenge requires to locate and retrieve a 3D blueprint related to the OWA
 2. **Follow Up on Clues**:
    - Investigate strings found in the image, specifically URLs and mentions of software used (OpenSCAD).
 
-   ![Aperisolv](../assets/difficulty5/retrieve_blueprint_2.png)
+   <img src="../assets/difficulty5/retrieve_blueprint_2.png" alt="Aperisolv" width="500px">
 
    - Check the validity and content of URLs found (Imgur and Adobe links), which led to a dead end.
 

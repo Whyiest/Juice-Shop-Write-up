@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Poison Null Byte
-
-**Category:** Improper Input Validation
-
+**Title:** Poison Null Byte\
+**Category:** Improper Input Validation\
 **Difficulty:** ⭐⭐⭐⭐ (4/6)
 
 The Poison Null Byte challenge involves exploiting a classic web vulnerability where a null byte (`\0` or `%00` in URL encoding) is used to bypass security controls that improperly handle input validation. This challenge tests the participant's understanding of low-level programming bugs and how they can impact web applications.
@@ -44,4 +42,3 @@ To prevent poison null byte attacks, consider the following recommendations:
 
 - **Properly Handle Strings and Inputs**: Ensure all parts of the web application, especially those in languages like PHP or server configurations that interact with the underlying file system, handle null bytes appropriately.
 - **Sanitize and Validate Inputs**: All inputs should be sanitized and validated to reject any null bytes before processing. Functions that strip out or handle null bytes should be applied to inputs that will interact with the file system.
-- **Update and Patch Systems**: Keep systems and software updated. Many modern languages and frameworks handle null bytes correctly by default, so ensuring the latest versions are in use can mitigate this vulnerability.

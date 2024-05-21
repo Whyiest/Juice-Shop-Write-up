@@ -2,13 +2,11 @@
 
 ## Challenge Overview
 
-**Title:** Bonus Payload
-
-**Category:** Cross-Site Scripting (XSS)
-
+**Title:** Bonus Payload\
+**Category:** Cross-Site Scripting (XSS)\
 **Difficulty:** ⭐ (1/6)
 
-Following the previous DOM XSS challenge, this "Bonus Payload" challenge requires participants to inject a more complex XSS payload involving an iframe that embeds a SoundCloud player. This task demonstrates how more sophisticated and potentially harmful content can be injected into a web application via XSS.
+Following the previous DOM XSS challenge, this "Bonus Payload" challenge requires to inject a more complex XSS payload involving an iframe that embeds a SoundCloud player. 
 
 ## Tools Used
 

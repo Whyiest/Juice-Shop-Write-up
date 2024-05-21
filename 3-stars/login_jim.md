@@ -1,11 +1,9 @@
-# Juice-Shop: Login Jim
+# Juice-Shop Write-up: Login Jim
 
 ## Challenge Overview
 
-**Title:** Login Jim
-
-**Category:** SQL Injection (SQLi)
-
+**Title:** Login Jim\
+**Category:** SQL Injection (SQLi)\
 **Difficulty:** ⭐⭐⭐ (3/6)
 
 The "Login Jim" challenge needs exploiting an SQL Injection vulnerability to bypass login mechanisms and gain unauthorized access to a user account, specifically Jim's. 
@@ -27,7 +25,7 @@ The "Login Jim" challenge needs exploiting an SQL Injection vulnerability to byp
    - Input a crafted SQL command into the username or password field that alters the backend SQL query to always return true. Common SQLi payloads involve using `' OR '1'='1' --` to manipulate the SQL query.
    - For Jim, the payload would be entered in the username or password field: `' OR '1'='1' --`. This payload effectively makes the SQL query behind the authentication form return true, bypassing the need for a correct username and password.
 
-   ![sql injection](image.png)
+   <img src="image.png" alt="sql injection" width="500px">
 
 ### Gaining Access
 

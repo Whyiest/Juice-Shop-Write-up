@@ -1,11 +1,9 @@
-# Juice-Shop: CAPTCHA Bypass
+# Juice-Shop Write-up: CAPTCHA Bypass
 
 ## Challenge Overview
 
-**Title:** CAPTCHA Bypass
-
-**Category:** Broken Anti-Automation
-
+**Title:** CAPTCHA Bypass\
+**Category:** Broken Anti-Automation\
 **Difficulty:** ⭐⭐⭐ (3/6)
 
 The "CAPTCHA Bypass" challenge requires to circumvent CAPTCHA protections to submit multiple customer feedback entries within a short period.
@@ -22,7 +20,7 @@ The "CAPTCHA Bypass" challenge requires to circumvent CAPTCHA protections to sub
 1. **Submitting a Feedback**:
    - Navigate to the feedback submission form and enter a comment, rating, and solve the CAPTCHA challenge as normal. Click submit to send the feedback.
 
-    ![dummy feedback](../assets/difficulty3/captcha_bypass_1.png)
+   <img src="../assets/difficulty3/captcha_bypass_1.png" alt="dummy feedback" width="500px">
 
 ### Interception and Analysis
 
@@ -35,7 +33,7 @@ The "CAPTCHA Bypass" challenge requires to circumvent CAPTCHA protections to sub
    - Notice that the CAPTCHA validation in the request relies solely on the `captchaId` and the provided `captcha` answer. 
    - Determine that the CAPTCHA system might not track or validate previous submissions effectively, possibly allowing the reuse of a single CAPTCHA solution multiple times.
 
-    ![request for captcha](../assets/difficulty3/captcha_bypass_2.png)
+   <img src="../assets/difficulty3/captcha_bypass_2.png" alt="request for captcha" width="500px">
 
 ### Automating CAPTCHA Reuse
 
@@ -43,7 +41,7 @@ The "CAPTCHA Bypass" challenge requires to circumvent CAPTCHA protections to sub
    - Modify the intercepted POST request to reuse the same `captchaId` and `captcha` answer. Change other fields like `comment` to simulate different feedback entries.
    - Rapidly replay the modified request multiple times (more than 10 times) within 20 seconds to challenge the anti-automation controls.
 
-    ![modified request](../assets/difficulty3/captcha_bypass_3.png)
+   <img src="../assets/difficulty3/captcha_bypass_3.png" alt="modified request" width="500px">
 
 ### Verifying Challenge Completion
 

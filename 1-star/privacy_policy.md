@@ -2,13 +2,11 @@
 
 ## Challenge Overview
 
-**Title:** Privacy Policy
-
-**Category:** Miscellaneous
-
+**Title:** Privacy Policy\
+**Category:** Miscellaneous\
 **Difficulty:** ⭐ (1/6)
 
-The objective of this challenge is to consult the Privacy Policy of the site, which indirectly provides clues about the path to an FTP server. The challenge tests a participant's attention to detail and ability to derive insights from seemingly non-technical information.
+The objective of this challenge is to consult the Privacy Policy of the site, which indirectly provides clues about the path to an FTP server. The challenge tests attention to detail and ability to derive insights from seemingly non-technical information.
 
 ## Tools Used
 
@@ -20,7 +18,8 @@ The steps taken to solve the Privacy Policy challenge were straightforward:
 
 1. **Locate the Privacy Policy**: Navigated to the section of the website where legal or privacy-related documents are likely to be found. This page is likely the page about : 127.0.0.1:3000/#/about 
 2. **Examine the Content**: Opened and thoroughly read the Privacy Policy, which in this case was presented as a Markdown file (`legal.md`).
-![policy](../assets/difficulty1/policy.png)
+
+<img src="../assets/difficulty1/policy_1.png" alt="policy" width="500px">
 
 ## Solution Explanation
 

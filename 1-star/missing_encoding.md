@@ -2,13 +2,11 @@
 
 ## Challenge Overview
 
-**Title:** Missing Encoding
-
-**Category:** Improper Input Validation
-
+**Title:** Missing Encoding\
+**Category:** Improper Input Validation\
 **Difficulty:** ⭐ (1/6)
 
-This challenge tasks participants with retrieving a specific image from a web application that fails to load due to encoding issues in its URL. This involves understanding how web browsers handle URLs and the importance of proper URL encoding.
+This challenge ask us to retrieve a specific image from a web application that fails to load due to encoding issues in its URL. This involves understanding how web browsers handle URLs and the importance of proper URL encoding.
 
 ## Tools Used
 
@@ -23,7 +21,7 @@ To address the "Missing Encoding" challenge, I followed these steps:
 
 2. **Understand the Problem**: Realized that the lack of proper URL encoding for the special characters in the image source URL caused the browser to fail in fetching the image.
 
-![code image](../assets/difficulty1/missing_encoding_1.png)
+<img src="../assets/difficulty1/missing_encoding_1.png" alt="code image" width="500px">
 
 3. **Use URL Encoding Tool**: Accessed an online URL encoding tool to properly encode the URL that includes special characters. This involved encoding characters such as emojis which are not normally handled correctly by browsers if not properly encoded. This is the URL that I obtained : assets%2Fpublic%2Fimages%2Fuploads%2F%F0%9F%98%BC-%23zatschi-%23whoneedsfourlegs-1572600969477.jpg
 
@@ -31,7 +29,7 @@ To address the "Missing Encoding" challenge, I followed these steps:
 
 5. **Reload and Verify**: Refreshed the page or reloaded the image to verify that the image now displayed correctly.
 
-![image loaded](../assets/difficulty1/missing_encoding_2.png)
+<img src="../assets/difficulty1/missing_encoding_2.png" alt="image loaded" width="500px">
 
 ## Solution Explanation
 

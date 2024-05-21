@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Locate Security Policy File
-
-**Category:** OSINT/Discovery
-
+**Title:** Locate Security Policy File\
+**Category:** OSINT/Discovery\
 **Difficulty:** ⭐⭐ (2/6)
 
 This challenge involves locating a hidden `security.txt` file on a web server. `Security.txt` is a proposed standard that allows websites to define security policies.
@@ -30,7 +28,7 @@ This challenge involves locating a hidden `security.txt` file on a web server. `
    - Navigate directly to `http://127.0.0.1:3000/.well-known/security.txt` in the web browser.
    - Successfully locate the `security.txt` file, which contains contact information, encryption details, preferred languages for security communication, and hiring information.
 
-   ![file](../assets/difficulty2/white_hat_1.png)
+   <img src="../assets/difficulty2/white_hat_1.png" alt="file" width="500px">
 
 ### Solution Explanation
 

@@ -2,13 +2,11 @@
 
 ## Challenge Overview
 
-**Title:** Visual Geo Stalking
-
-**Category:** Sensitive Data Exposure
-
+**Title:** Visual Geo Stalking\
+**Category:** Sensitive Data Exposure\
 **Difficulty:** ⭐⭐ (2/6)
 
-This challenge, "Visual Geo Stalking," involves using publicly available visual data to deduce the answer to a security question and then using that information to reset a user's password. It tests participants' abilities in image analysis, OSINT techniques, and creative thinking to link seemingly unrelated data for accessing sensitive information.
+This challenge, "Visual Geo Stalking," involves using publicly available visual data to deduce the answer to a security question and then using that information to reset a user's password. It tests abilities in image analysis, OSINT techniques, and creative thinking to link seemingly unrelated data for accessing sensitive information.
 
 ## Tools Used
 
@@ -24,19 +22,19 @@ This challenge, "Visual Geo Stalking," involves using publicly available visual 
    - Emma's post on a social media-like platform includes a photo of a building with a caption referencing a past workplace.
    - The challenge involves identifying Emma's former workplace through the image provided.
 
-![post](../assets/difficulty2/visual_geostaking_1.png)
+   <img src="../assets/difficulty2/visual_geostaking_1.png" alt="post" width="500px">
 
 ### Detailed Image Analysis
 
 2. **Utilizing Google Lens**:
    - The image was analyzed using Google Lens, which identified the location as the "Kenau Park area in Haarlem."
 
-![lens](../assets/difficulty2/visual_geostaking_2.png)
+   <img src="../assets/difficulty2/visual_geostaking_2.png" alt="lens" width="500px">
 
 3. **Google Maps Exploration**:
    - Using Google Maps to virtually visit the location, various business signs and plaques were examined to match potential answers to security questions.
 
-![signs](../assets/difficulty2/visual_geostaking_3.png)
+   <img src="../assets/difficulty2/visual_geostaking_3.png" alt="signs" width="500px">
 
 4. **Identifying Key Details**:
    - A close inspection of another part of the image revealed a sign for "ITsec" on a window. This detail seemed crucial but was initially overlooked.
@@ -46,7 +44,7 @@ This challenge, "Visual Geo Stalking," involves using publicly available visual 
 5. **Security Question Answering**:
    - The term "ITsec" was attempted as an answer to a security question regarding Emma's former workplace, based on the context provided by the visual clues in the photo and the information deduced from online tools.
 
-![itsec](../assets/difficulty2/visual_geostaking_4.png)
+   <img src="../assets/difficulty2/visual_geostaking_4.png" alt="itsec" width="500px">
 
 6. **Password Reset**:
    - Successfully using "ITsec" as the security question answer allowed the password for Emma's account to be reset.

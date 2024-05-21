@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Login MC SafeSearch
-
-**Category:** Open Source Intelligence (OSINT)
-
+**Title:** Login MC SafeSearch\
+**Category:** Open Source Intelligence (OSINT)\
 **Difficulty:** ⭐⭐ (2/6)
 
 This challenge involves using OSINT techniques to uncover the password for the user account of MC SafeSearch. 

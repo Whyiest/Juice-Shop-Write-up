@@ -2,13 +2,11 @@
 
 ## Challenge Overview
 
-**Title:** DOM XSS
-
-**Category:** Cross-Site Scripting (XSS)
-
+**Title:** DOM XSS\
+**Category:** Cross-Site Scripting (XSS)\
 **Difficulty:** ⭐ (1/6)
 
-The "DOM XSS" challenge requires participants to perform a DOM-based XSS attack by injecting malicious JavaScript code into a web application's Document Object Model via an unfiltered input field, specifically targeting an `iframe` source attribute.
+The "DOM XSS" challenge requires to perform a DOM-based XSS attack by injecting malicious JavaScript code into a web application's Document Object Model via an unfiltered input field, specifically targeting an `iframe` source attribute.
 
 ## Tools Used
 
@@ -34,7 +32,7 @@ The challenge involves injecting an XSS payload into a dynamic content area of a
 4. **Execute the Attack**:
    - Navigating to the manipulated URL resulted in the execution of the malicious script, displaying an alert box indicating a successful XSS attack.
 
-![alt text](../assets/difficulty1/dom_xss_1.png)
+   <img src="../assets/difficulty1/dom_xss_1.png" alt="alt text" width="500px">
 
 ### Solution Explanation
 

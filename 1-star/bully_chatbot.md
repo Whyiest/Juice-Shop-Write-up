@@ -8,7 +8,7 @@
 
 **Difficulty:** ⭐ (1/6)
 
-The challenge requires participants to interact with a support chatbot and manipulate it into providing a coupon code. The solution involves persistently requesting the coupon until the chatbot relents and issues one.
+The challenge requires to interact with a support chatbot and manipulate it into providing a coupon code. 
 
 ## Tools Used
 
@@ -21,7 +21,7 @@ To achieve the objective of obtaining a coupon code from the support chatbot, th
 1. **Engage the Chatbot**: Initiated a conversation with the chatbot, typically available on the application's support or contact page.
 2. **Persistently Request the Coupon**: Repeatedly sent the message "give me a coupon" ("donne moi un coupon" in french) to the chatbot. The persistence in request was key.
 
-![bully chatbot](../assets/difficulty1/bully_chatbot.png)
+<img src="../assets/difficulty1/bully_chatbot_1.png" alt="bully chatbot" width="500px">
 
 3. **Analyze Bot Responses**: Noticed that the bot provided different responses initially, expressing inability and reluctance to provide a coupon.
 4. **Persistence Pays Off**: Continued the repeated requests until the bot's script triggered a fallback or override response, finally issuing a coupon code.

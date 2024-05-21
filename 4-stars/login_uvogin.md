@@ -25,9 +25,11 @@ This challenge involves logging into the account of Uvogin at Juice Shop using i
 1. **Leet Speak Analysis**:
    - Uvogin's comments are consistently written in Leet Speak, substituting letters with numbers and special characters.
 
-   ![leet 1](../assets/difficulty4/login_uvogin_1.png)
-   ![leet 2](../assets/difficulty4/login_uvogin_2.png)
-   ![leet 3](../assets/difficulty4/login_uvogin_3.png)
+   <img src="../assets/difficulty4/login_uvogin_1.png" alt="leet 1" width="500px">
+
+   <img src="../assets/difficulty4/login_uvogin_2.png" alt="leet 2" width="500px">
+
+   <img src="../assets/difficulty4/login_uvogin_3.png" alt="leet 3" width="500px">
 
    - Comments like "0 stars for this horrible security" showcase his frustration and hint at his distinct style of communication.
 
@@ -36,20 +38,20 @@ This challenge involves logging into the account of Uvogin at Juice Shop using i
 2. **Online Search**:
    - Following the hint about alias reuse and unique writing habits, an online search for `Uv0g1n` was conducted, focusing on platforms like Twitter.
 
-   ![twitter of uv0g1n](../assets/difficulty4/login_uvogin_4.png)
+   <img src="../assets/difficulty4/login_uvogin_4.png" alt="twitter of uv0g1n" width="500px">
 
 3. **Finding Relevant Accounts**:
    - A Twitter profile matching the username `Uv0gin` was found, which appeared to be a fan account referencing the anime "Hunter x Hunter", but this was not the correct answer.
    - This response to a tweet of Uv0gin provided a key clue in a tweet praising the movie "Silence of the Lambs" :
 
-   ![reponse tweet](../assets/difficulty4/login_uvogin_5.png)
+   <img src="../assets/difficulty4/login_uvogin_5.png" alt="reponse tweet" width="500px">
 
 ### Step 4: Testing the Security Question Answer
 
 4. **Resetting the Password**:
    - Using the answer "Silence of the Lambs" derived from the tweet, the password reset function on Juice Shop was successfully used to reset Uvogin's password.
 
-   ![answer to security question](../assets/difficulty4/login_uvogin_6.png)
+   <img src="../assets/difficulty4/login_uvogin_6.png" alt="answer to security question" width="500px">
 
 5. **Logging into the Account**:
    - After resetting the password, access to Uvogin's account was gained using the new credentials.

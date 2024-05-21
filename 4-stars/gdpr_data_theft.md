@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** GDPR Data Theft
-
-**Category:** Sensitive Data Exposure
-
+**Title:** GDPR Data Theft\
+**Category:** Sensitive Data Exposure\
 **Difficulty:** ⭐⭐⭐⭐ (4/6)
 
 This challenge requires exploiting a feature without using SQL injection or other common injection techniques to steal personal data in compliance with GDPR constraints.
@@ -22,7 +20,7 @@ This challenge requires exploiting a feature without using SQL injection or othe
 The web application has a feature that allows users to export their data. The process checks the last export time and if the attempt is made within five minutes of the last, it triggers a captcha. The application tracks this using a cookie or a session storage entry. To understand this workflow, I had analyzed the code in main.js :
 
 
-![code](../assets/difficulty4/gdpr_data_theft_1.png)
+<img src="../assets/difficulty4/gdpr_data_theft_1.png" alt="code" width="500px">
 
 ### Steps Taken to Solve the Challenge
 
@@ -34,13 +32,14 @@ The web application has a feature that allows users to export their data. The pr
    - Tried changing the client-side time to bypass the time check, which failed due to server-side validation.
    - Considered using XSS to bypass or manipulate session storage but recalled the challenge hint against using injections.
 
-![xss](../assets/difficulty4/gdpr_data_theft_2.png)
+   <img src="../assets/difficulty4/gdpr_data_theft_2.png" alt="xss" width="500px">
 
 3. **Exploring User Identification**:
    - Noticed from others challenges that the application obfuscates email addresses in certain requests by replacing parts of the email with asterisks, likely as a privacy measure.
    - Speculated that the application might use a simplistic method to match these obfuscated emails to user accounts.
    - For example, when creating an order on Juice Shop : 
-   ![order](../assets/difficulty4/gdpr_data_theft_3.png)
+   
+   <img src="../assets/difficulty4/gdpr_data_theft_3.png" alt="order" width="500px">
 
 4. **Exploiting Email Obfuscation**:
    - Created a new account with an email address that, when obfuscated, would closely resemble the pattern of another user's obfuscated email.
@@ -50,7 +49,7 @@ The web application has a feature that allows users to export their data. The pr
    - Asked for my data under the newly created email.
    - Successfully accessed data that should have been restricted to the original user, indicating that the application matches users based on the obfuscated pattern rather than the full, actual email.
 
-   ![data](../assets/difficulty4/gdpr_data_theft_4.png)
+   <img src="../assets/difficulty4/gdpr_data_theft_4.png" alt="data" width="500px">
 
 ### Solution Explanation
 

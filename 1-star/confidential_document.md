@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Confidential Document
-
-**Category:** Sensitive Data Exposure
-
+**Title:** Confidential Document\
+**Category:** Sensitive Data Exposure\
 **Difficulty:** ⭐ (1/6)
 
 The challenge involves accessing and retrieving a confidential document named `acquisition.md` from an FTP server. This challenge highlights issues related to sensitive data exposure due to improper access control configurations.
@@ -23,7 +21,7 @@ To complete the challenge, the following steps were taken:
 3. **Download and Review the File**: Downloaded the `acquisition.md` file from the server and opened it to confirm it contains confidential information about planned acquisitions of other companies.
 4. **Analyze the Content**: The document explicitly stated it was confidential and should not be distributed, containing strategic business plans that could impact stock market performance.
 
-![confidential](../assets/difficulty1/confidential_document.png)
+<img src="../assets/difficulty1/confidential_document_1.png" alt="confidential" width="500px">
 
 ## Solution Explanation
 

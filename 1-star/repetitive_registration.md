@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Repetitive Registration
-
-**Category:** Improper Input Validation
-
+**Title:** Repetitive Registration\
+**Category:** Improper Input Validation\
 **Difficulty:** ⭐ (1/6)
 
 The "Repetitive Registration" challenge explores the improper validation of user input during the registration process, specifically focusing on the handling of password confirmation fields.
@@ -27,13 +25,13 @@ Upon examining the registration form, it was noted that users are required to en
    - Entered all required information including the email, password, and security question.
    - Intentionally provided different inputs for the "Password" and "Re-type your password" fields.
 
-![incorrect](../assets/difficulty1/repetitive_registration_1.png)
+   <img src="../assets/difficulty1/repetitive_registration_1.png" alt="incorrect" width="500px">
 
 2. **Modify Form Behavior**:
    - Used the browser’s developer tools to inspect the 'Sign Up' button, which was disabled due to the mismatch in passwords.
    - Manually removed the `disabled` attribute from the button in the HTML code via the developer tools.
 
-![code](../assets/difficulty1/repetitive_registration_2.png)
+   <img src="../assets/difficulty1/repetitive_registration_2.png" alt="code" width="500px">
 
 3. **Submit the Form**:
    - After enabling the button, submitted the form. Despite the passwords not matching, the registration succeeded, indicating a lack of server-side validation for this condition.

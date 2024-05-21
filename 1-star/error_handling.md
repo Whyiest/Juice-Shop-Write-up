@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Error Handling
-
-**Category:** Security Misconfiguration
-
+**Title:** Error Handling\
+**Category:** Security Misconfiguration\
 **Difficulty:** ⭐ (1/6)
 
 This challenge involves provoking an error that reveals backend details due to improper or non-systematic error handling. The task tests understanding of how server misconfigurations can expose sensitive information and system details that could be exploited.
@@ -27,7 +25,7 @@ To successfully complete the challenge, I followed these steps:
 
 The error was provoked by attempting to access an invalid URL on the server, which was intended to load unsupported file types or directories. The server responded with a detailed error message indicating:
 
-![error](../assets/difficulty1/error_handling.png)
+<img src="../assets/difficulty1/error_handling_1.png" alt="error" width="500px">
 
 - **403 Error**: The server explicitly rejected the request due to the attempted access of a restricted or unsupported file type.
 - **Verbose Error Message**: The error message displayed detailed information about the server's configuration, specifically revealing that the server is running "Express JS version 4.17.1."

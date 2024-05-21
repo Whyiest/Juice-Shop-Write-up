@@ -2,10 +2,8 @@
 
 ## Challenge Overview
 
-**Title:** Forgotten Sales Backup
-
-**Category:** Sensitive Data Exposure
-
+**Title:** Forgotten Sales Backup\
+**Category:** Sensitive Data Exposure\
 **Difficulty:** ⭐⭐⭐⭐ (4/6)
 
 This challenge involves accessing a backup file left forgotten on a vendor's server. The task highlights the risk of sensitive data exposure due to improperly secured backup files accessible via a public interface.
@@ -22,7 +20,7 @@ To successfully complete the "Forgotten Sales Backup" challenge, the following s
 
 2. **Identify the Target File**: Scanned through the list of files and identified `coupons_2013.md.bak` as a likely candidate for containing sensitive sales data due to its naming convention indicating it's a backup file.
 
-![ftp](../assets/difficulty4/forgotten_sales_backup.png)
+<img src="../assets/difficulty4/forgotten_sales_backup.png" alt="ftp" width="500px">
 
 3. **Exploit NULL Byte Injection**: Utilized a NULL byte injection technique to access the backup file. Many web applications do not properly sanitize input, allowing for directory traversal or file inclusion attacks if the application is improperly handling file names.
    - **Construct the URL**: Appended a NULL byte character, represented in URL encoding as `%00`, to the file request to potentially bypass any restrictions or parsing issues by the server. This was tried because older or misconfigured servers might treat the NULL byte as a string terminator, thus ignoring any file extension checks or other controls.

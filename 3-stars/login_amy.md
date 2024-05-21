@@ -1,11 +1,9 @@
-# Juice-Shop: Login Amy
+# Juice-Shop Write-up: Login Amy
 
 ## Challenge Overview
 
-**Title:** Login Amy
-
-**Category:** Brute Force / Cryptographic Issues
-
+**Title:** Login Amy\
+**Category:** Brute Force / Cryptographic Issues\
 **Difficulty:** ⭐⭐⭐ (3/6)
 
 The "Login Amy" challenge involves using clues related to a fictional character to determine the password and gain access to the account. 
@@ -34,17 +32,17 @@ The "Login Amy" challenge involves using clues related to a fictional character 
 
    - We know by reading the hint of the challenge that she didn't follow the "one important final note" that states that people must not fill their password using dots : 
 
-    ![one important final note](../assets/difficulty3/login_amy_1.png)
+   <img src="../assets/difficulty3/login_amy_1.png" alt="one important final note" width="500px">
 
    - Based on the tool's feedback and the challenge's hint about a significant brute force duration ("93 billion trillion trillion centuries"), incrementally increase the complexity and length of the password until reaching a calculation that closely matches this duration.
 
-    ![password generator](../assets/difficulty3/login_amy_3.png)
+   <img src="../assets/difficulty3/login_amy_3.png" alt="password generator" width="500px">
 
    - Discover that a 24-character password matche this duration.
 
    - Starting by "K1f" (replacing 'i' with '1') and filled with additional dots provides the expected brute force resistance.
 
-    ![final password](../assets/difficulty3/login_amy_2.png)
+   <img src="../assets/difficulty3/login_amy_2.png" alt="final password" width="500px">
 
 ### Attempting to Login
 
