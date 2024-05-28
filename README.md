@@ -120,6 +120,11 @@ Navigate to each folder to explore the challenges and solutions specific to that
 - [Steganography](4-stars/steganography.md) - Security through Obscurity
 - [User Credentials](4-stars/user_credentials.md) - Injection
 - [Vulnerable Library](4-stars/vulnerable_library.md) - Vulnerable Components
+- [Server Side XSS Protection](4-stars/server_side_xss_protection.md) - Cross-Site Scripting (XSS) 
+- [NoSQL Dos](4-stars/nosql_dos.md) - NoSQL Injection / Denial of Service (DoS) 
+- [X-Header XSS](4-stars/x_header_xss.md) - Cross-Site Scripting (XSS) 
+
+
 
 ### ➤ Difficulty 5 Stars (⭐⭐⭐⭐⭐)
 
@@ -137,6 +142,10 @@ Navigate to each folder to explore the challenges and solutions specific to that
 - [Supply Chain Attack](5-stars/supply_chain_attack.md) - Vulnerable Components
 - [Two-Factor Authentication Bypass](5-stars/two_factor_authentification.md) - Broken Authentication
 - [Unsigned JWT](5-stars/unsigned_jwt.md) - Broken Authentication
+- [Local File Read](5-stars/local_file_read.md) - Server-Side Injection 
+- [NoSQL Exfiltration](5-stars/nosql_exfiltration.md) - NoSQL Injection  
+- [Blocked RCE Dos](5-stars/blocked_rce_dos.md) - Insecure Deserialization
+
 
 ### ➤ Difficulty 6 Stars (⭐⭐⭐⭐⭐⭐)
 
@@ -149,7 +158,11 @@ Navigate to each folder to explore the challenges and solutions specific to that
 - [SSRF](6-stars/ssrf.md) - Server-Side Request Forgery
 - [SSTi](6-stars/ssti.md) - Server-Side Template Injection
 - [Wallet Depletion](6-stars/wallet_depletion.md) - Cryptographic Issues
-- [video_xss.md](6-stars/video_xss.md) - Cross-Site Scripting (XSS)
+- [Video XSS](6-stars/video_xss.md) - Cross-Site Scripting (XSS)
+- [Arbitrary File Write](6-stars/arbitrary_file_write.md) - Vulnerable Components 
+- [Successful Rce Dos](6-stars/successful_rce_dos.md) - Remote Code Execution (RCE) / Denial of Service (DoS)  
+
+
 
 
 ## Contributing

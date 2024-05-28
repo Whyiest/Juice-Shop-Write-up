@@ -62,7 +62,7 @@ When finished, your structure must looks like that :
 
 2. **Add Payload:** Inserted the payload `</script><script>alert('xss')</script>` into the `owasp_promo.vtt` file.
 3. **Zip the Exploit:** Created a zip file `exploit.zip` with the path adjustments necessary to overwrite the target file:
-   - From within the `child/child` directory, ran the command: `zip -r exploit.zip ../../frontend/dist/frontend/assets/public/videos/owasp_promo.vtt`.
+   - From within the `child/child` directory, ran the command: `zip exploit.zip ../../frontend/dist/frontend/assets/public/videos/owasp_promo.vtt`.
 
 ### Step 7: Executing the Exploit
 1. **Upload Exploit:** Uploaded `exploit.zip` through the complaint form on the Juice Shop application.
