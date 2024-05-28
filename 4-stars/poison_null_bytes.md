@@ -11,7 +11,7 @@ The Poison Null Byte challenge involves exploiting a classic web vulnerability w
 ## Tools Used
 
 - Web browser with the capability to modify URLs
-- Network intercepting tools like Burp Suite
+- Burp Suite to intercept requests
 
 ## Methodology and Solution
 

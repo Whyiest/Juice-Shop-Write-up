@@ -74,6 +74,8 @@ Navigate to each folder to explore the challenges and solutions specific to that
 - [Visual GeoStaking](2-stars/visual_geostaking.md) - Sensitive Data Exposure
 - [Weird Crypto](2-stars/weird_crypto.md) - Cryptographic Issues
 - [White Hat](2-stars/white_hat.md) - Open Source Intelligence (OSINT)
+- [Reflected XSS](2-stars/reflected_xss.md) - Cross-Site Scripting (XSS)
+
 
 ### ➤ Difficulty 3 Stars (⭐⭐⭐)
 
@@ -145,7 +147,9 @@ Navigate to each folder to explore the challenges and solutions specific to that
 - [Multiples Likes](6-stars/multiples_likes.md) - Broken Anti-Automation
 - [Premium Paywall](6-stars/premium_paywall.md) - Access Control
 - [SSRF](6-stars/ssrf.md) - Server-Side Request Forgery
+- [SSTi](6-stars/ssti.md) - Server-Side Template Injection
 - [Wallet Depletion](6-stars/wallet_depletion.md) - Cryptographic Issues
+- [video_xss.md](6-stars/video_xss.md) - Cross-Site Scripting (XSS)
 
 
 ## Contributing
