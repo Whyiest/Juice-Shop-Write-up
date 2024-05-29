@@ -49,7 +49,7 @@ After inspecting various parts of the application looking for a page that use te
 
 2. **Injecting Dynamix Expression:** Also in the username inpt field, we try more complex payload that involve a command execution : 
 
-   ![whoiam command test](../assets/difficulty6/ssti_2.png)
+![whoiam command test](../assets/difficulty6/ssti_2.png)
 
 ### Step 6: Crafting the Payload
 To execute the malware, we inject a payload that uses the Node.js `child_process` module to execute system commands:
