@@ -72,4 +72,4 @@ The challenge was solved by exploiting a common JWT implementation flaw known as
 ## Remediation
 
 - **Strict Algorithm Enforcement:** Ensure the server enforces the use of a specific, expected algorithm for JWT signatures, rejecting any tokens that specify a different algorithm.
-- **Secure Parsing Libraries:** Utilize libraries that securely parse JWTs and rigorously validate the `alg` header against expected values.
+- **Updating Libraries:** Juice-Shop is currently using an outdated version of express-jwt which contains a lot of security issues like this one. 
