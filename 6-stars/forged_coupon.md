@@ -61,6 +61,8 @@ Generated a new coupon code for the current date with a desired discount percent
 
 Applied the newly forged coupon in a transaction within the Juice Shop. The system validated the coupon successfully, demonstrating that the forged coupon was indistinguishable from legitimate coupons.
 
+<img src="../assets/difficulty4/ephemeral_accountant_2.png" alt="decrypting coupons" width="500px">
+
 ## Solution Explanation
 
 The use of a predictable and reversible encoding method (Z85) without additional checks or obfuscations allowed for the straightforward creation of valid coupons.
