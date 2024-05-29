@@ -23,7 +23,7 @@ The challenge hints point towards file upload functionalities in the application
 Using Twitter Advanced Search, we identified tweet from the Juice Shop Twitter account highlighted that the complain page now supports ZIP file uploads:
 - **Tweet:** Mentioned a convenient ZIP file upload feature on the complain page.
 
-![tweet](../assets/difficulty6/arbitrary_file_write_1.png)
+<img src="../assets/difficulty6/arbitrary_file_write_1.png" alt="tweet" width="600px">
   
 We researched "arbitrary file writing using zip" on Google and found the Zip Slip vulnerability, which allows arbitrary file write by exploiting path traversal in ZIP file extraction.
 

@@ -16,7 +16,7 @@ The objective of this challenge is to perform a persisted XSS attack using `<ifr
 ### Step 1: Identifying the Target Endpoint
 The challenge involves injecting an XSS payload through an HTTP header. We hypothesized that the IP address logging functionality in the admin panel might be a potential target because it's one of the only information that we can input using an header and that is clearly reflected somewhere. This functionality logs the IP address of users and displays it in the admin interface :
 
-![Page that show IP of client](../assets/difficulty4/x_header_xss_1.png)
+<img src="../assets/difficulty4/x_header_xss_1.png" alt="Page that show IP of client" width="600px">
 
 
 1. **Navigate to Admin Panel:** Go to `http://localhost:3000/#/privacy-security/last-login-ip`.
@@ -24,7 +24,7 @@ The challenge involves injecting an XSS payload through an HTTP header. We hypot
 ### Step 2: Intercepting the Request
 1. **Log Out:** Perform a logout action and intercept the request using Burp Suite to analyze the headers sent to the server.
 
-![Last login IP request](../assets/difficulty4/x_header_xss_2.png)
+<img src="../assets/difficulty4/x_header_xss_2.png" alt="Last login IP request" width="600px">
 
 
 ### Step 3: Finding the Relevant Header
@@ -39,7 +39,7 @@ True-Client-IP: 99.99.99.99
 
 Here is the state of last IP page after this request, confirming injection possibility: 
 
-![Last know IP](../assets/difficulty4/x_header_xss_3.png)
+<img src="../assets/difficulty4/x_header_xss_3.png" alt="Last know IP" width="600px">
 
 ### Step 4: Testing IP Reflection
 1. **Modify the Header:** Add a standard IP address in the `True-Client-IP` header to see if it is reflected in the admin panel.
@@ -60,7 +60,7 @@ To exploit this vulnerability, we need to craft an XSS payload that will be refl
 1. **Log In as Admin:** Log back in to access the IP panel.
 2. **Observe XSS Execution:** Check the interface for the execution of the XSS payload. If successful, an alert box with the message `xss` should appear.
 
-![XSS proof](../assets/difficulty4/x_header_xss_4.png)
+<img src="../assets/difficulty4/x_header_xss_4.png" alt="XSS proof" width="600px">
 
 ## Solution Explanation
 The challenge was solved by identifying a reflected XSS vulnerability in the `True-Client-IP` header. By injecting a payload that gets reflected in the admin panel, we successfully executed a persisted XSS attack.

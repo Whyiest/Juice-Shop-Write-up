@@ -22,19 +22,19 @@ The challenge involves interacting with order-related functionalities, so by ext
 By analyzing the intercepted requests, we identified the following endpoint used to fetch order details:
 - **Endpoint:** `/rest/track-order/[id]`
 
-![normal request](../assets/difficulty5/nosql_exfiltration_1.png)
+<img src="../assets/difficulty5/nosql_exfiltration_1.png" alt="normal request" width="600px">
 
 ### Step 3: Testing for NoSQL Injection (Not working yet)
 To test for NoSQL injection, we attempted basic payloads:
 1. **Payload:** `/rest/track-order/'`
 
-![modified request](../assets/difficulty5/nosql_exfiltration_2.png)
+<img src="../assets/difficulty5/nosql_exfiltration_2.png" alt="modified request" width="600px">
 
    - **Result:** Received a `500 Internal Server Error`, indicating a potential injection point.
 2. **Payload:** `/rest/track-order/''`
    - **Result:** Received an `Unexpected string` error instead of `Unexpected token`, suggesting that the server interprets our input as part of a NoSQL query.
 
-   ![request with payload](../assets/difficulty5/nosql_exfiltration_3.png)
+<img src="../assets/difficulty5/nosql_exfiltration_3.png" alt="request with payload" width="600px">
 
 ### Step 4: Crafting the NoSQL Injection Payload
 Given the error messages, we inferred that the server was likely constructing a query similar to:

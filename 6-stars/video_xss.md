@@ -21,25 +21,25 @@ By reading the hints we know that promo video URL is not part of the sitemap but
 - **Twitter Search:** Found the URL by filtering tweets by @bkimminich and @owasp_juiceshop containing keyword "promo, promotion, juice-shop, video":
   - `https://twitter.com/bkimminich/status/1114621693299916800`
 
-  ![tweet 1](../assets/difficulty6/video_xss_1.png)
+<img src="../assets/difficulty6/video_xss_1.png" alt="tweet 1" width="600px">
 
   - `https://twitter.com/owasp_juiceshop/status/1350381894010077184`
 
-  ![tweet 2](../assets/difficulty6/video_xss_2.png)
+<img src="../assets/difficulty6/video_xss_2.png" alt="tweet 2" width="600px">
 
 - **Direct URL Access:** Using GoBuster we can also find `http://localhost:3000/promotion`.
 
 ### Step 2: Identifying the Subtitle File
 Upon inspecting the promo video page using Developer Tools, and by filtering by keyword "subtitle", we observed that subtitles were loaded using a WebVTT file format:
 
-![observation](../assets/difficulty6/video_xss_3.png)
+<img src="../assets/difficulty6/video_xss_3.png" alt="observation" width="600px">
 
 We also find in developer tool the source of the video : the /video page, located to http://127.0.0.1:3000/video.
 
 - **Video Source:** Inside a response header (Content-location) of the server when visiting 127.0.0.1:3000/video, we identify the video source as `http://localhost:3000/assets/public/videos/owasp_promo.mp4`.
 - **Subtitle Source:** We are searching the subtitle file, we know that WebVTT extension is .vtt, so by replacing `.mp4` with `.vtt`, we discovered the subtitle file at `http://localhost:3000/assets/public/videos/owasp_promo.vtt`.
 
-![subtitle file](../assets/difficulty6/video_xss_4.png)
+<img src="../assets/difficulty6/video_xss_4.png" alt="subtitle file" width="600px">
 
 ### Step 3: Inspecting the Server Response
 Using Burp Suite, we analyzed the server response when accessing the promo video page:
@@ -58,7 +58,7 @@ Before using Zip Slip, we have to figure out what is the correct path for the su
 
 When finished, your structure must looks like that : 
 
-![structure](../assets/difficulty6/video_xss_5.png)
+<img src="../assets/difficulty6/video_xss_5.png" alt="structure" width="600px">
 
 2. **Add Payload:** Inserted the payload `</script><script>alert('xss')</script>` into the `owasp_promo.vtt` file.
 3. **Zip the Exploit:** Created a zip file `exploit.zip` with the path adjustments necessary to overwrite the target file:
@@ -69,11 +69,11 @@ When finished, your structure must looks like that :
 
 2. **Verify:** Accessed `http://localhost:3000/assets/public/videos/owasp_promo.vtt` and I noticed that my malicious payload was inserted:
 
-![modified subtitle file](../assets/difficulty6/video_xss_6.png)
+<img src="../assets/difficulty6/video_xss_6.png" alt="modified subtitle file" width="600px">
 
 2. **Final verification:** Accessed `http://localhost:3000/promotion` to see the XSS payload execution:
 
-![xss executed in the video](../assets/difficulty6/video_xss_7.png)
+<img src="../assets/difficulty6/video_xss_7.png" alt="xss executed in the video" width="600px">
 
 ## Solution Explanation
 The challenge was solved by exploiting a path traversal vulnerability during file upload. By crafting a zip file that navigated to the correct directory and overwrote the subtitle file, we successfully injected the XSS payload, demonstrating the vulnerability.

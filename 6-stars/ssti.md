@@ -39,17 +39,17 @@ This command downloads the malware, makes it executable, and then runs it.
 After inspecting various parts of the application looking for a page that use template, notably the GitHub page of Juice Shop, the profile page was found to use Pug (formerly Jade) template. Alternatively, you can also try basic template injection in every inputs to find the page that we must exploit.
 - **Pug JS:** It's a templating engine that uses variables like `#{variable}` to render dynamic content.
 
-![github home page](../assets/difficulty6/ssti_4.png)
+<img src="../assets/difficulty6/ssti_4.png" alt="github home page" width="600px">
 
 ### Step 5: Testing for SSTi
 1. **Injecting Simple Expression:** In the username input field, enter `#{1 + 1}` and click "Set Username".
    - **Result:** The username is set to `2`, confirming SSTi vulnerability.
 
-   ![Basic example](../assets/difficulty6/ssti_1.png)
+<img src="../assets/difficulty6/ssti_1.png" alt="Basic example" width="600px">
 
 2. **Injecting Dynamix Expression:** Also in the username inpt field, we try more complex payload that involve a command execution : 
 
-![whoiam command test](../assets/difficulty6/ssti_2.png)
+<img src="../assets/difficulty6/ssti_2.png" alt="whoiam command test" width="600px">
 
 ### Step 6: Crafting the Payload
 To execute the malware, we inject a payload that uses the Node.js `child_process` module to execute system commands:
@@ -61,7 +61,7 @@ To execute the malware, we inject a payload that uses the Node.js `child_process
 ### Step 7: Executing the Payload
 1. **Enter Payload:** Input the payload into the username field and submit.
 
-![payload test](../assets/difficulty6/ssti_3.png)
+<img src="../assets/difficulty6/ssti_3.png" alt="payload test" width="600px">
 
 2. **Verification:** The command should execute, downloading and running the malware on the server.
 

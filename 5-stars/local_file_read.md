@@ -17,7 +17,7 @@ The objective of this challenge is to exploit a local file read (LFI) vulnerabil
 ### Step 1: Identifying the Vulnerable Endpoint
 In a previous challenge, the endpoint `http://localhost:3000/dataerasure` was identified as potentially vulnerable. This endpoint is responsible for handling GDPR data erasure requests.
 
-![basic request](../assets/difficulty5/local_file_read_1.png)
+<img src="../assets/difficulty5/local_file_read_1.png" alt="basic request" width="600px">
 
 ### Step 2: Sending a Test Request
 1. **Navigate to Data Erasure Page:** Go to `http://localhost:3000/dataerasure` and submit a random GDPR erasure request.
@@ -47,7 +47,7 @@ Error: ENOENT: no such file or directory
 ```
 This error indicates that the server attempted to access a file based on the `layout` parameter.
 
-![response error example](../assets/difficulty5/local_file_read_2.png)
+<img src="../assets/difficulty5/local_file_read_2.png" alt="response error example" width="600px">
 
 ### Step 6: Crafting the Exploit
 The error message suggests the server accesses files from the path `<root_directory>/juice-shop/views/<value_of_layout_parameter>`. To exploit this, we can try to read known files on the server by manipulating the `layout` parameter.
@@ -68,7 +68,7 @@ email=admin%40juice-sh.op&securityAnswer=test&layout=../package.json
 ### Step 7: Sending the Exploit
 1. **Send the Request:** Use Burp Suite to send the crafted request.
 
-![final request](../assets/difficulty5/nosql_exfiltration_3.png)
+<img src="../assets/difficulty5/nosql_exfiltration_3.png" alt="final request" width="600px">
 
 2. **Verify Response:** The response should include the contents of the `package.json` file, confirming the successful LFI exploit.
 

@@ -25,7 +25,7 @@ To make API requests, we needed to include a bearer token for authorization:
 1. **Retrieve Bearer Token:** Extract the token from the browser's developer tools.
 2. **Authorize Request:** Input the token in the Swagger UI to authorize the request.
 
-![authorization](../assets/difficulty6/successful_rce_dos_1.png)
+<img src="../assets/difficulty6/successful_rce_dos_1.png" alt="authorization" width="600px">
 
 ### Step 4: Testing the API Endpoint
 1. **Try It Out:** Click "Try it out" in the Swagger UI for the `/orders` endpoint and observe the example payload structure:
@@ -57,14 +57,14 @@ This payload uses a complex regular expression that leads to excessive backtrack
 ### Step 6: Executing the DoS Attack
 1. **Input Payload:** Replace the example payload with our ReDoS payload in the Swagger UI.
 
-![input payload](../assets/difficulty6/successful_rce_dos_2.png)
+<img src="../assets/difficulty6/successful_rce_dos_2.png" alt="input payload" width="600px">
 
 2. **Send Request:** Execute the request and observe the server's response.
 
 ### Step 7: Observing the Result
 As expected, the server responded with a 503 Service Unavailable error, indicating that the payload successfully caused a DoS condition.
 
-![Error 503](../assets/difficulty6/successful_rce_dos_3.png)
+<img src="../assets/difficulty6/successful_rce_dos_3.png" alt="Error 503" width="600px">
 
 ## Solution Explanation
 The challenge was solved by exploiting a vulnerable API endpoint that allowed arbitrary JSON injection. By injecting a ReDoS payload, we caused the server to hang due to excessive processing time for the regular expression, resulting in a denial of service.

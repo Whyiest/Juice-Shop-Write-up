@@ -24,11 +24,11 @@ While this payload executed successfully, it did not meet the challenge requirem
 ### Step 2: Finding a Reflective Surface
 To find a place where the input is reflected directly on the page, I navigated through the application and identified that the order tracking page uses an `id` parameter in the URL to display the order details. 
 
-![url](../assets/difficulty2/reflected_xss_2.png)
+<img src="../assets/difficulty2/reflected_xss_2.png" alt="url" width="600px">
 
 This `id` parameter is reflected in the response.
 
-![order tracking](../assets/difficulty2/reflected_xss_1.png)
+<img src="../assets/difficulty2/reflected_xss_1.png" alt="order tracking" width="600px">
 
 ### Step 3: Crafting the Payload
 I crafted a payload to be injected via the `id` parameter in the URL:
@@ -43,7 +43,7 @@ http://127.0.0.1:3000/track-result?id=<script>alert('xss')</script>
 ```
 When this URL is loaded, the script executes, confirming the reflected XSS vulnerability.
 
-![proof](../assets/difficulty2/reflected_xss_3.png)
+<img src="../assets/difficulty2/reflected_xss_3.png" alt="proof" width="600px">
 
 ### Solution Explanation
 The challenge was solved by identifying a reflected XSS vulnerability in the `id` parameter of the order tracking page. By injecting a script tag into this parameter, the malicious JavaScript code was executed when the page was loaded.

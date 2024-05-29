@@ -18,7 +18,7 @@ The objective of this challenge is to perform a remote code execution (RCE) that
 ### Step 1: Discovering the API Documentation
 Using GoBuster, we discovered the Swagger API documentation for Juice Shop at `http://localhost:3000/api-docs`.
 
-![Swagger API Documentation](../assets/difficulty5/blocked_rce_dos_1.png)
+<img src="../assets/difficulty5/blocked_rce_dos_1.png" alt="Swagger API Documentation" width="600px">
 
 
 ### Step 2: Identifying the Vulnerable Endpoint
@@ -29,7 +29,7 @@ To make example API requests (useful for next step)., we needed to include a bea
 1. **Retrieve Bearer Token:** Extract the token from the browser's developer tools.
 2. **Authorize Request:** Input the token in the Swagger UI to authorize examples requests 
 
-![Authorization token](../assets/difficulty5/blocked_rce_dos_3.png)
+<img src="../assets/difficulty5/blocked_rce_dos_3.png" alt="Authorization token" width="600px">
 
 
 ### Step 4: Testing the API Endpoint
@@ -50,7 +50,7 @@ To make example API requests (useful for next step)., we needed to include a bea
 
 We can see the example page here :
 
-![Example of API Call](../assets/difficulty5/blocked_rce_dos_2.png)
+<img src="../assets/difficulty5/blocked_rce_dos_2.png" alt="Example of API Call" width="600px">
 
 ### Step 5: Crafting the DoS Payload
 To exploit the vulnerability, we crafted a payload designed to cause an infinite loop on the server:
@@ -68,7 +68,7 @@ To exploit the vulnerability, we crafted a payload designed to cause an infinite
 ### Step 7: Observing the Results
 After injecting the payload, the server became unresponsive for about 2 seconds before recoverin and displaying an internal server error message. This indicates that the server detected and mitigated the DoS attack, but it's normal as Juice-Shop limite Dos attack to 2 seconds to avoid crashing our server.
 
-![Internal Server error response](../assets/difficulty5/blocked_rce_dos_4.png)
+<img src="../assets/difficulty5/blocked_rce_dos_4.png" alt="Internal Server error response" width="600px">
 
 ## Solution Explanation
 The challenge was solved by identifying an insecure deserialization vulnerability in the `orderLinesData` parameter of the `/orders` endpoint. By injecting a payload that caused an infinite loop, we were able to trigger the server's protection mechanisms against DoS attacks.
