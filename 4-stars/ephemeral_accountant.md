@@ -48,6 +48,10 @@ Content-Type: application/json
 }
 ```
 
+We observe that the server responsde with a JWT token, meaning that he accepted our connection :
+
+<img src="../assets/difficulty4/ephemeral_accountant_2.png" alt="decrypting coupons" width="500px">
+
 ### Solution Explanation
 
 This SQL injection effectively creates a temporary row in the database for the duration of the query. The `UNION SELECT` clause constructs a complete user record, mirroring the structure expected by the application's login processing logic. By setting the `email` field in the injection to match the SQL query expected to retrieve a user, the application processes this "ephemeral" user as if it were legitimately present in the database.
