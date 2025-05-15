@@ -28,8 +28,8 @@ This challenge ask us to reset the password for the user "Bender" using the "For
 ### Step 3: OSINT and Cross-referencing Show Details
 
 3. **Finding the Correct Answer**:
-   - After re-evaluating the series details and additional OSINT, it was found that the nickname used for Bender's company in the series was “Stop’n’drop”.
-   - Upon entering "Stop'n'drop" as the answer to the security question, the password reset was successfully triggered.
+   - After re-evaluating the series details and additional OSINT, it was found that the nickname used for Bender's company in the series was “Stop’n’Drop”.
+   - Upon entering "Stop'n'Drop" as the answer to the security question, the password reset was successfully triggered.
 
 ## Solution Explanation
 
